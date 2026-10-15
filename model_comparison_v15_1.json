@@ -1,0 +1,589 @@
+{
+  "basis": "Prior-week historical reconstructions; train through 2022, choose on 2023, check 2024, report 2025; original pre-production recipe comparator. Historical line timestamps are not executable live prices.",
+  "targets": {
+    "CFB": {
+      "margin": {
+        "baseline": {
+          "tune": {
+            "games": 650,
+            "mae": 12.127038679792452,
+            "rmse": 15.20988783451261,
+            "bias": -0.07100899468027042,
+            "probability_games": 617,
+            "brier": 0.5191693710013366,
+            "log_loss": 0.7657531437232855
+          },
+          "audit": {
+            "games": 619,
+            "mae": 12.025716839762753,
+            "rmse": 15.281895352429432,
+            "bias": -1.3270346192801752,
+            "probability_games": 611,
+            "brier": 0.5224819593366434,
+            "log_loss": 0.7718782707250049
+          },
+          "test": {
+            "games": 662,
+            "mae": 11.812160875599007,
+            "rmse": 14.99641821928639,
+            "bias": -1.0154436103171434,
+            "probability_games": 661,
+            "brier": 0.5196051189539258,
+            "log_loss": 0.7634712799010259
+          }
+        },
+        "candidates": [
+          {
+            "family": "efficiency_without_story_flags",
+            "penalty": 10000.0,
+            "features": 17,
+            "scores": {
+              "tune": {
+                "games": 650,
+                "mae": 12.13221718985743,
+                "rmse": 15.213299566229576,
+                "bias": -0.06896420642235915,
+                "probability_games": 617,
+                "brier": 0.5194351256477796,
+                "log_loss": 0.7660165070201215
+              },
+              "audit": {
+                "games": 619,
+                "mae": 12.035397393916687,
+                "rmse": 15.288185460875052,
+                "bias": -1.320988386573023,
+                "probability_games": 611,
+                "brier": 0.523040279811339,
+                "log_loss": 0.7724477598524354
+              },
+              "test": {
+                "games": 662,
+                "mae": 11.811338377802892,
+                "rmse": 14.998770550842936,
+                "bias": -1.012353399763626,
+                "probability_games": 661,
+                "brier": 0.5196770002989359,
+                "log_loss": 0.763545365973128
+              }
+            },
+            "passed_2023_selection": false,
+            "passed_2024": false,
+            "passed_2025_all_metrics": false
+          },
+          {
+            "family": "efficiency_with_division_rest",
+            "penalty": 10000.0,
+            "features": 20,
+            "scores": {
+              "tune": {
+                "games": 650,
+                "mae": 12.13221718985743,
+                "rmse": 15.213299566229576,
+                "bias": -0.06896420642235915,
+                "probability_games": 617,
+                "brier": 0.5194351256477796,
+                "log_loss": 0.7660165070201215
+              },
+              "audit": {
+                "games": 619,
+                "mae": 12.035397393916687,
+                "rmse": 15.288185460875052,
+                "bias": -1.320988386573023,
+                "probability_games": 611,
+                "brier": 0.523040279811339,
+                "log_loss": 0.7724477598524354
+              },
+              "test": {
+                "games": 662,
+                "mae": 11.811338377802892,
+                "rmse": 14.998770550842936,
+                "bias": -1.012353399763626,
+                "probability_games": 661,
+                "brier": 0.5196770002989359,
+                "log_loss": 0.7635453659731282
+              }
+            },
+            "passed_2023_selection": false,
+            "passed_2024": false,
+            "passed_2025_all_metrics": false
+          },
+          {
+            "family": "without_ranking_record_streak_flags",
+            "penalty": 10000.0,
+            "features": 23,
+            "scores": {
+              "tune": {
+                "games": 650,
+                "mae": 12.128462437597188,
+                "rmse": 15.211193778823418,
+                "bias": -0.06380234689950402,
+                "probability_games": 617,
+                "brier": 0.5193450739129791,
+                "log_loss": 0.7659307489059084
+              },
+              "audit": {
+                "games": 619,
+                "mae": 12.023937884173153,
+                "rmse": 15.278238248032096,
+                "bias": -1.3250270527480814,
+                "probability_games": 611,
+                "brier": 0.5223117244605041,
+                "log_loss": 0.7717056985733218
+              },
+              "test": {
+                "games": 662,
+                "mae": 11.815727301486866,
+                "rmse": 14.999615847400916,
+                "bias": -1.0153034790336883,
+                "probability_games": 661,
+                "brier": 0.5197102951375708,
+                "log_loss": 0.7635782256969317
+              }
+            },
+            "passed_2023_selection": false,
+            "passed_2024": true,
+            "passed_2025_all_metrics": false
+          }
+        ],
+        "production_change": "None pending independent evidence; do not widen forecasts to manufacture higher probabilities"
+      },
+      "total": {
+        "baseline": {
+          "tune": {
+            "games": 650,
+            "mae": 12.60231378149955,
+            "rmse": 15.688579183788292,
+            "bias": 1.1183763436743965,
+            "probability_games": 577,
+            "brier": 0.5143678197894488,
+            "log_loss": 0.7499369588377779
+          },
+          "audit": {
+            "games": 619,
+            "mae": 12.83942299190768,
+            "rmse": 16.37130872843553,
+            "bias": 1.5058462742018477,
+            "probability_games": 616,
+            "brier": 0.5164354547403176,
+            "log_loss": 0.7585795873349641
+          },
+          "test": {
+            "games": 662,
+            "mae": 12.217791540499165,
+            "rmse": 15.191022234820126,
+            "bias": 0.14131986151680473,
+            "probability_games": 661,
+            "brier": 0.5067764279915562,
+            "log_loss": 0.7159537600650552
+          }
+        },
+        "candidates": [
+          {
+            "family": "efficiency_without_story_flags",
+            "penalty": 10000.0,
+            "features": 17,
+            "scores": {
+              "tune": {
+                "games": 650,
+                "mae": 12.5987327704681,
+                "rmse": 15.698862108934339,
+                "bias": 1.271550052176505,
+                "probability_games": 577,
+                "brier": 0.5144128594793076,
+                "log_loss": 0.7499737376642012
+              },
+              "audit": {
+                "games": 619,
+                "mae": 12.838102681794052,
+                "rmse": 16.379168057411263,
+                "bias": 1.5575951283071765,
+                "probability_games": 616,
+                "brier": 0.5164977216760874,
+                "log_loss": 0.7586562950219087
+              },
+              "test": {
+                "games": 662,
+                "mae": 12.195894083742461,
+                "rmse": 15.203317592539625,
+                "bias": 0.1688506691975669,
+                "probability_games": 661,
+                "brier": 0.5057043497399205,
+                "log_loss": 0.714884720744069
+              }
+            },
+            "passed_2023_selection": false,
+            "passed_2024": false,
+            "passed_2025_all_metrics": false
+          },
+          {
+            "family": "efficiency_with_division_rest",
+            "penalty": 10000.0,
+            "features": 20,
+            "scores": {
+              "tune": {
+                "games": 650,
+                "mae": 12.5987327704681,
+                "rmse": 15.698862108934339,
+                "bias": 1.2715500521765055,
+                "probability_games": 577,
+                "brier": 0.5144128594793076,
+                "log_loss": 0.7499737376642012
+              },
+              "audit": {
+                "games": 619,
+                "mae": 12.838102681794052,
+                "rmse": 16.379168057411263,
+                "bias": 1.5575951283071765,
+                "probability_games": 616,
+                "brier": 0.5164977216760874,
+                "log_loss": 0.7586562950219087
+              },
+              "test": {
+                "games": 662,
+                "mae": 12.195894083742461,
+                "rmse": 15.203317592539625,
+                "bias": 0.16885066919756705,
+                "probability_games": 661,
+                "brier": 0.5057043497399205,
+                "log_loss": 0.714884720744069
+              }
+            },
+            "passed_2023_selection": false,
+            "passed_2024": false,
+            "passed_2025_all_metrics": false
+          },
+          {
+            "family": "without_ranking_record_streak_flags",
+            "penalty": 10000.0,
+            "features": 23,
+            "scores": {
+              "tune": {
+                "games": 650,
+                "mae": 12.601396987947762,
+                "rmse": 15.703076790730844,
+                "bias": 1.2766210054856018,
+                "probability_games": 577,
+                "brier": 0.5144010010162325,
+                "log_loss": 0.7499630461941839
+              },
+              "audit": {
+                "games": 619,
+                "mae": 12.85051104938238,
+                "rmse": 16.387893191525652,
+                "bias": 1.5536878908111915,
+                "probability_games": 616,
+                "brier": 0.5170582461145364,
+                "log_loss": 0.7592333211855135
+              },
+              "test": {
+                "games": 662,
+                "mae": 12.19462082202002,
+                "rmse": 15.199708329703835,
+                "bias": 0.17000799061951852,
+                "probability_games": 661,
+                "brier": 0.5056830229786436,
+                "log_loss": 0.7148588981943658
+              }
+            },
+            "passed_2023_selection": false,
+            "passed_2024": false,
+            "passed_2025_all_metrics": false
+          }
+        ],
+        "production_change": "None pending independent evidence; do not widen forecasts to manufacture higher probabilities"
+      }
+    },
+    "NFL": {
+      "margin": {
+        "baseline": {
+          "tune": {
+            "games": 240,
+            "mae": 10.109216251302023,
+            "rmse": 13.236807467310252,
+            "bias": -1.527546479786847,
+            "probability_games": 240,
+            "brier": 0.5478578767852926,
+            "log_loss": 0.8487507332768442
+          },
+          "audit": {
+            "games": 240,
+            "mae": 9.563193161578397,
+            "rmse": 12.465965501511198,
+            "bias": -0.8631587728585348,
+            "probability_games": 240,
+            "brier": 0.5122926912986203,
+            "log_loss": 0.7428699204897689
+          },
+          "test": {
+            "games": 240,
+            "mae": 10.071720129720147,
+            "rmse": 12.56873943530566,
+            "bias": -0.7458907380595029,
+            "probability_games": 240,
+            "brier": 0.5034551323585735,
+            "log_loss": 0.7115834812376088
+          }
+        },
+        "candidates": [
+          {
+            "family": "efficiency_without_story_flags",
+            "penalty": 10000.0,
+            "features": 28,
+            "scores": {
+              "tune": {
+                "games": 240,
+                "mae": 10.109216251302023,
+                "rmse": 13.236807467310252,
+                "bias": -1.527546479786847,
+                "probability_games": 240,
+                "brier": 0.5478578767852926,
+                "log_loss": 0.8487507332768442
+              },
+              "audit": {
+                "games": 240,
+                "mae": 9.563193161578397,
+                "rmse": 12.465965501511198,
+                "bias": -0.8631587728585348,
+                "probability_games": 240,
+                "brier": 0.5122926912986203,
+                "log_loss": 0.7428699204897689
+              },
+              "test": {
+                "games": 240,
+                "mae": 10.071720129720147,
+                "rmse": 12.56873943530566,
+                "bias": -0.7458907380595029,
+                "probability_games": 240,
+                "brier": 0.5034551323585735,
+                "log_loss": 0.7115834812376088
+              }
+            },
+            "passed_2023_selection": false,
+            "passed_2024": true,
+            "passed_2025_all_metrics": true
+          },
+          {
+            "family": "efficiency_with_division_rest",
+            "penalty": 10000.0,
+            "features": 31,
+            "scores": {
+              "tune": {
+                "games": 240,
+                "mae": 10.103295266561288,
+                "rmse": 13.232736739939288,
+                "bias": -1.5194151670349825,
+                "probability_games": 240,
+                "brier": 0.5475023832779644,
+                "log_loss": 0.8483765790879562
+              },
+              "audit": {
+                "games": 240,
+                "mae": 9.568811965921224,
+                "rmse": 12.466180193029759,
+                "bias": -0.8609553359796114,
+                "probability_games": 240,
+                "brier": 0.5127064745902811,
+                "log_loss": 0.7432947747107773
+              },
+              "test": {
+                "games": 240,
+                "mae": 10.06828348335444,
+                "rmse": 12.565694981577023,
+                "bias": -0.7420331774230446,
+                "probability_games": 240,
+                "brier": 0.5032559875268195,
+                "log_loss": 0.7113794975983507
+              }
+            },
+            "passed_2023_selection": true,
+            "passed_2024": false,
+            "passed_2025_all_metrics": true
+          },
+          {
+            "family": "without_ranking_record_streak_flags",
+            "penalty": 10000.0,
+            "features": 34,
+            "scores": {
+              "tune": {
+                "games": 240,
+                "mae": 10.101913761519617,
+                "rmse": 13.232074947761548,
+                "bias": -1.516233167535145,
+                "probability_games": 240,
+                "brier": 0.5474328617585411,
+                "log_loss": 0.8483037715175629
+              },
+              "audit": {
+                "games": 240,
+                "mae": 9.567289646585413,
+                "rmse": 12.465661169975153,
+                "bias": -0.8595466063731675,
+                "probability_games": 240,
+                "brier": 0.5126123745794204,
+                "log_loss": 0.743200982637623
+              },
+              "test": {
+                "games": 240,
+                "mae": 10.068141575494781,
+                "rmse": 12.565696400803466,
+                "bias": -0.7389921663127385,
+                "probability_games": 240,
+                "brier": 0.5032720832231583,
+                "log_loss": 0.7113951526168262
+              }
+            },
+            "passed_2023_selection": true,
+            "passed_2024": false,
+            "passed_2025_all_metrics": true
+          }
+        ],
+        "production_change": "None pending independent evidence; do not widen forecasts to manufacture higher probabilities"
+      },
+      "total": {
+        "baseline": {
+          "tune": {
+            "games": 240,
+            "mae": 10.39118939615893,
+            "rmse": 13.21732151843207,
+            "bias": -0.3233742531809422,
+            "probability_games": 240,
+            "brier": 0.5145373145142822,
+            "log_loss": 0.736823900176402
+          },
+          "audit": {
+            "games": 240,
+            "mae": 9.750110209046207,
+            "rmse": 12.740232535622079,
+            "bias": 1.437204486245243,
+            "probability_games": 240,
+            "brier": 0.508287920662406,
+            "log_loss": 0.7372883098496683
+          },
+          "test": {
+            "games": 240,
+            "mae": 10.19856378901131,
+            "rmse": 12.930237547993848,
+            "bias": 0.9623690629150147,
+            "probability_games": 240,
+            "brier": 0.5035218115146204,
+            "log_loss": 0.6966766943725307
+          }
+        },
+        "candidates": [
+          {
+            "family": "efficiency_without_story_flags",
+            "penalty": 1000.0,
+            "features": 28,
+            "scores": {
+              "tune": {
+                "games": 240,
+                "mae": 10.38915662561351,
+                "rmse": 13.207849709181351,
+                "bias": -0.3503917322465207,
+                "probability_games": 240,
+                "brier": 0.5143213166401106,
+                "log_loss": 0.7366172986611362
+              },
+              "audit": {
+                "games": 240,
+                "mae": 9.721056663434249,
+                "rmse": 12.73943512306214,
+                "bias": 1.4583991046236842,
+                "probability_games": 240,
+                "brier": 0.5075880696521952,
+                "log_loss": 0.7365963021747052
+              },
+              "test": {
+                "games": 240,
+                "mae": 10.181447637459334,
+                "rmse": 12.944941449791445,
+                "bias": 0.9984951742879912,
+                "probability_games": 240,
+                "brier": 0.5033971112621081,
+                "log_loss": 0.6965620603685793
+              }
+            },
+            "passed_2023_selection": true,
+            "passed_2024": true,
+            "passed_2025_all_metrics": false
+          },
+          {
+            "family": "efficiency_with_division_rest",
+            "penalty": 1000.0,
+            "features": 31,
+            "scores": {
+              "tune": {
+                "games": 240,
+                "mae": 10.4110625146582,
+                "rmse": 13.217787551797159,
+                "bias": -0.3697984104587481,
+                "probability_games": 240,
+                "brier": 0.5160039304100945,
+                "log_loss": 0.738351022350745
+              },
+              "audit": {
+                "games": 240,
+                "mae": 9.744799996054423,
+                "rmse": 12.77189533844744,
+                "bias": 1.4627159680090434,
+                "probability_games": 240,
+                "brier": 0.5087731689426779,
+                "log_loss": 0.737790846733376
+              },
+              "test": {
+                "games": 240,
+                "mae": 10.172161734216955,
+                "rmse": 12.918452653190313,
+                "bias": 1.0044577414794496,
+                "probability_games": 240,
+                "brier": 0.5029401205384905,
+                "log_loss": 0.6960986874487936
+              }
+            },
+            "passed_2023_selection": false,
+            "passed_2024": false,
+            "passed_2025_all_metrics": true
+          },
+          {
+            "family": "without_ranking_record_streak_flags",
+            "penalty": 1000.0,
+            "features": 34,
+            "scores": {
+              "tune": {
+                "games": 240,
+                "mae": 10.413358922298407,
+                "rmse": 13.218056300003585,
+                "bias": -0.37408535680211524,
+                "probability_games": 240,
+                "brier": 0.5161407226656828,
+                "log_loss": 0.7384930174938311
+              },
+              "audit": {
+                "games": 240,
+                "mae": 9.74759091522216,
+                "rmse": 12.776999518630689,
+                "bias": 1.4631800169629012,
+                "probability_games": 240,
+                "brier": 0.5089684627422085,
+                "log_loss": 0.7379887899819622
+              },
+              "test": {
+                "games": 240,
+                "mae": 10.168355012447046,
+                "rmse": 12.913422319072987,
+                "bias": 1.0021253251738946,
+                "probability_games": 240,
+                "brier": 0.5027915916466114,
+                "log_loss": 0.6959503611965412
+              }
+            },
+            "passed_2023_selection": false,
+            "passed_2024": false,
+            "passed_2025_all_metrics": true
+          }
+        ],
+        "production_change": "None pending independent evidence; do not widen forecasts to manufacture higher probabilities"
+      }
+    }
+  }
+}
