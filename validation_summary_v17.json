@@ -1,0 +1,4275 @@
+{
+  "format": "prototype17-development-v1",
+  "release_status": "Prototype 17 complete package; software verified, betting evidence remains development research, not proven future returns",
+  "leagues": {
+    "CFB": {
+      "margin": {
+        "baseline": {
+          "tune": {
+            "games": 617,
+            "brier": 0.5132282739442104,
+            "log_loss": 0.7596884729098488,
+            "rmse": 15.151817951393486,
+            "maximum_probability": 0.6149696133838062,
+            "top_two": {
+              "games": 25,
+              "wins": 20,
+              "losses": 5,
+              "pushes": 0,
+              "hit_rate": 0.8,
+              "average_estimate": 0.5696549271478721
+            },
+            "above_60": {
+              "games": 3,
+              "wins": 3,
+              "losses": 0,
+              "pushes": 0,
+              "hit_rate": 1.0,
+              "average_estimate": 0.6080989899656105
+            },
+            "above_65": {
+              "games": 0,
+              "wins": 0,
+              "losses": 0,
+              "pushes": 0,
+              "hit_rate": null,
+              "average_estimate": null
+            }
+          },
+          "audit": {
+            "games": 611,
+            "brier": 0.5208339037382995,
+            "log_loss": 0.7701817218753958,
+            "rmse": 15.303385925096851,
+            "maximum_probability": 0.609037076038618,
+            "top_two": {
+              "games": 26,
+              "wins": 14,
+              "losses": 12,
+              "pushes": 0,
+              "hit_rate": 0.5384615384615384,
+              "average_estimate": 0.576413640713448
+            },
+            "above_60": {
+              "games": 3,
+              "wins": 3,
+              "losses": 0,
+              "pushes": 0,
+              "hit_rate": 1.0,
+              "average_estimate": 0.6063381732456906
+            },
+            "above_65": {
+              "games": 0,
+              "wins": 0,
+              "losses": 0,
+              "pushes": 0,
+              "hit_rate": null,
+              "average_estimate": null
+            }
+          },
+          "test": {
+            "games": 661,
+            "brier": 0.5179296343112946,
+            "log_loss": 0.7616938720859427,
+            "rmse": 14.989430107720574,
+            "maximum_probability": 0.607759409474089,
+            "top_two": {
+              "games": 27,
+              "wins": 12,
+              "losses": 15,
+              "pushes": 0,
+              "hit_rate": 0.4444444444444444,
+              "average_estimate": 0.5670118166112474
+            },
+            "above_60": {
+              "games": 1,
+              "wins": 0,
+              "losses": 1,
+              "pushes": 0,
+              "hit_rate": 0.0,
+              "average_estimate": 0.607759409474089
+            },
+            "above_65": {
+              "games": 0,
+              "wins": 0,
+              "losses": 0,
+              "pushes": 0,
+              "hit_rate": null,
+              "average_estimate": null
+            }
+          }
+        },
+        "selected": {
+          "tune": {
+            "games": 617,
+            "brier": 0.5115941263551086,
+            "log_loss": 0.7579976912823803,
+            "rmse": 15.135792920397298,
+            "maximum_probability": 0.6424333070346226,
+            "top_two": {
+              "games": 25,
+              "wins": 21,
+              "losses": 3,
+              "pushes": 1,
+              "hit_rate": 0.875,
+              "average_estimate": 0.5848377543384612
+            },
+            "above_60": {
+              "games": 8,
+              "wins": 8,
+              "losses": 0,
+              "pushes": 0,
+              "hit_rate": 1.0,
+              "average_estimate": 0.6164538687383201
+            },
+            "above_65": {
+              "games": 0,
+              "wins": 0,
+              "losses": 0,
+              "pushes": 0,
+              "hit_rate": null,
+              "average_estimate": null
+            }
+          },
+          "audit": {
+            "games": 611,
+            "brier": 0.5205206029896818,
+            "log_loss": 0.7698661931070278,
+            "rmse": 15.295666061182924,
+            "maximum_probability": 0.663129287546987,
+            "top_two": {
+              "games": 26,
+              "wins": 13,
+              "losses": 13,
+              "pushes": 0,
+              "hit_rate": 0.5,
+              "average_estimate": 0.5942287062428295
+            },
+            "above_60": {
+              "games": 12,
+              "wins": 9,
+              "losses": 3,
+              "pushes": 0,
+              "hit_rate": 0.75,
+              "average_estimate": 0.6208716053328378
+            },
+            "above_65": {
+              "games": 2,
+              "wins": 1,
+              "losses": 1,
+              "pushes": 0,
+              "hit_rate": 0.5,
+              "average_estimate": 0.6620757403750388
+            }
+          },
+          "test": {
+            "games": 661,
+            "brier": 0.5179225571497342,
+            "log_loss": 0.7616890793269974,
+            "rmse": 14.977043964695696,
+            "maximum_probability": 0.6581423524735469,
+            "top_two": {
+              "games": 27,
+              "wins": 13,
+              "losses": 14,
+              "pushes": 0,
+              "hit_rate": 0.48148148148148145,
+              "average_estimate": 0.577863113183585
+            },
+            "above_60": {
+              "games": 6,
+              "wins": 3,
+              "losses": 3,
+              "pushes": 0,
+              "hit_rate": 0.5,
+              "average_estimate": 0.6165041071355908
+            },
+            "above_65": {
+              "games": 1,
+              "wins": 1,
+              "losses": 0,
+              "pushes": 0,
+              "hit_rate": 1.0,
+              "average_estimate": 0.6581423524735469
+            }
+          }
+        },
+        "algorithm": "boosted_mean_3 + learned situations",
+        "selection": {
+          "penalty": 8.0,
+          "mix": 0.5
+        },
+        "context_rows": 5878,
+        "comparison_basis": "Core versus selected context layer"
+      },
+      "total": {
+        "baseline": {
+          "tune": {
+            "games": 577,
+            "brier": 0.5136452520996192,
+            "log_loss": 0.7492197498511047,
+            "rmse": 15.683768744725002,
+            "maximum_probability": 0.6099572428481448,
+            "top_two": {
+              "games": 25,
+              "wins": 8,
+              "losses": 16,
+              "pushes": 1,
+              "hit_rate": 0.3333333333333333,
+              "average_estimate": 0.543947753794595
+            },
+            "above_60": {
+              "games": 2,
+              "wins": 1,
+              "losses": 1,
+              "pushes": 0,
+              "hit_rate": 0.5,
+              "average_estimate": 0.6060097104745246
+            },
+            "above_65": {
+              "games": 0,
+              "wins": 0,
+              "losses": 0,
+              "pushes": 0,
+              "hit_rate": null,
+              "average_estimate": null
+            }
+          },
+          "audit": {
+            "games": 616,
+            "brier": 0.5149294995597326,
+            "log_loss": 0.7571031679180036,
+            "rmse": 16.358274151235833,
+            "maximum_probability": 0.5885326624700509,
+            "top_two": {
+              "games": 26,
+              "wins": 16,
+              "losses": 10,
+              "pushes": 0,
+              "hit_rate": 0.6153846153846154,
+              "average_estimate": 0.5386681016836988
+            },
+            "above_60": {
+              "games": 0,
+              "wins": 0,
+              "losses": 0,
+              "pushes": 0,
+              "hit_rate": null,
+              "average_estimate": null
+            },
+            "above_65": {
+              "games": 0,
+              "wins": 0,
+              "losses": 0,
+              "pushes": 0,
+              "hit_rate": null,
+              "average_estimate": null
+            }
+          },
+          "test": {
+            "games": 661,
+            "brier": 0.5048800835118578,
+            "log_loss": 0.7140587758240884,
+            "rmse": 15.18366175918569,
+            "maximum_probability": 0.610473381917569,
+            "top_two": {
+              "games": 28,
+              "wins": 17,
+              "losses": 11,
+              "pushes": 0,
+              "hit_rate": 0.6071428571428571,
+              "average_estimate": 0.5554288635669129
+            },
+            "above_60": {
+              "games": 3,
+              "wins": 1,
+              "losses": 2,
+              "pushes": 0,
+              "hit_rate": 0.3333333333333333,
+              "average_estimate": 0.6072778886786604
+            },
+            "above_65": {
+              "games": 0,
+              "wins": 0,
+              "losses": 0,
+              "pushes": 0,
+              "hit_rate": null,
+              "average_estimate": null
+            }
+          }
+        },
+        "selected": {
+          "tune": {
+            "games": 577,
+            "brier": 0.5120207729573327,
+            "log_loss": 0.7475314751683968,
+            "rmse": 15.650121090250481,
+            "maximum_probability": 0.6647360691335221,
+            "top_two": {
+              "games": 25,
+              "wins": 14,
+              "losses": 10,
+              "pushes": 1,
+              "hit_rate": 0.5833333333333334,
+              "average_estimate": 0.5698531092057239
+            },
+            "above_60": {
+              "games": 7,
+              "wins": 5,
+              "losses": 2,
+              "pushes": 0,
+              "hit_rate": 0.7142857142857143,
+              "average_estimate": 0.6319995681465199
+            },
+            "above_65": {
+              "games": 1,
+              "wins": 0,
+              "losses": 1,
+              "pushes": 0,
+              "hit_rate": 0.0,
+              "average_estimate": 0.6647360691335221
+            }
+          },
+          "audit": {
+            "games": 616,
+            "brier": 0.5116835905105368,
+            "log_loss": 0.7537612366806088,
+            "rmse": 16.3205775412056,
+            "maximum_probability": 0.659943168249931,
+            "top_two": {
+              "games": 26,
+              "wins": 17,
+              "losses": 8,
+              "pushes": 1,
+              "hit_rate": 0.68,
+              "average_estimate": 0.593684885640831
+            },
+            "above_60": {
+              "games": 11,
+              "wins": 8,
+              "losses": 3,
+              "pushes": 0,
+              "hit_rate": 0.7272727272727273,
+              "average_estimate": 0.6242236156503882
+            },
+            "above_65": {
+              "games": 2,
+              "wins": 2,
+              "losses": 0,
+              "pushes": 0,
+              "hit_rate": 1.0,
+              "average_estimate": 0.6567628850043352
+            }
+          },
+          "test": {
+            "games": 661,
+            "brier": 0.5043158412207753,
+            "log_loss": 0.7134745066093033,
+            "rmse": 15.175378939373823,
+            "maximum_probability": 0.6705921055431731,
+            "top_two": {
+              "games": 28,
+              "wins": 16,
+              "losses": 12,
+              "pushes": 0,
+              "hit_rate": 0.5714285714285714,
+              "average_estimate": 0.5836839565802766
+            },
+            "above_60": {
+              "games": 12,
+              "wins": 9,
+              "losses": 3,
+              "pushes": 0,
+              "hit_rate": 0.75,
+              "average_estimate": 0.6176383797509618
+            },
+            "above_65": {
+              "games": 1,
+              "wins": 1,
+              "losses": 0,
+              "pushes": 0,
+              "hit_rate": 1.0,
+              "average_estimate": 0.6705921055431731
+            }
+          }
+        },
+        "algorithm": "Extra Trees + pooled conference/ranked contexts with guarded season learning",
+        "selection": {
+          "penalty": 2.0,
+          "season_prior_penalty": 32.0,
+          "mix": 0.5
+        },
+        "context_rows": 5878,
+        "comparison_basis": "Previous accepted draft totals layer versus expanded guarded context layer"
+      }
+    },
+    "NFL": {
+      "margin": {
+        "baseline": {
+          "tune": {
+            "games": 240,
+            "brier": 0.5464643143003743,
+            "log_loss": 0.8474249721369508,
+            "rmse": 13.232287244913927,
+            "maximum_probability": 0.6094775660135878,
+            "top_two": {
+              "games": 32,
+              "wins": 17,
+              "losses": 15,
+              "pushes": 0,
+              "hit_rate": 0.53125,
+              "average_estimate": 0.5510705895125667
+            },
+            "above_60": {
+              "games": 1,
+              "wins": 1,
+              "losses": 0,
+              "pushes": 0,
+              "hit_rate": 1.0,
+              "average_estimate": 0.6094775660135878
+            },
+            "above_65": {
+              "games": 0,
+              "wins": 0,
+              "losses": 0,
+              "pushes": 0,
+              "hit_rate": null,
+              "average_estimate": null
+            }
+          },
+          "audit": {
+            "games": 240,
+            "brier": 0.5089975171800047,
+            "log_loss": 0.7395040946289343,
+            "rmse": 12.434991775287667,
+            "maximum_probability": 0.600177761881184,
+            "top_two": {
+              "games": 32,
+              "wins": 23,
+              "losses": 9,
+              "pushes": 0,
+              "hit_rate": 0.71875,
+              "average_estimate": 0.5529514615416197
+            },
+            "above_60": {
+              "games": 1,
+              "wins": 1,
+              "losses": 0,
+              "pushes": 0,
+              "hit_rate": 1.0,
+              "average_estimate": 0.600177761881184
+            },
+            "above_65": {
+              "games": 0,
+              "wins": 0,
+              "losses": 0,
+              "pushes": 0,
+              "hit_rate": null,
+              "average_estimate": null
+            }
+          },
+          "test": {
+            "games": 240,
+            "brier": 0.501110439018872,
+            "log_loss": 0.7091671832367058,
+            "rmse": 12.534317575921644,
+            "maximum_probability": 0.5852803044128917,
+            "top_two": {
+              "games": 32,
+              "wins": 20,
+              "losses": 12,
+              "pushes": 0,
+              "hit_rate": 0.625,
+              "average_estimate": 0.5523870346539141
+            },
+            "above_60": {
+              "games": 0,
+              "wins": 0,
+              "losses": 0,
+              "pushes": 0,
+              "hit_rate": null,
+              "average_estimate": null
+            },
+            "above_65": {
+              "games": 0,
+              "wins": 0,
+              "losses": 0,
+              "pushes": 0,
+              "hit_rate": null,
+              "average_estimate": null
+            }
+          }
+        },
+        "selected": {
+          "tune": {
+            "games": 240,
+            "brier": 0.5459425223758849,
+            "log_loss": 0.8469046865836933,
+            "rmse": 13.247094448680064,
+            "maximum_probability": 0.6094775660135878,
+            "top_two": {
+              "games": 32,
+              "wins": 14,
+              "losses": 16,
+              "pushes": 2,
+              "hit_rate": 0.4666666666666667,
+              "average_estimate": 0.5560746583260496
+            },
+            "above_60": {
+              "games": 1,
+              "wins": 1,
+              "losses": 0,
+              "pushes": 0,
+              "hit_rate": 1.0,
+              "average_estimate": 0.6094775660135878
+            },
+            "above_65": {
+              "games": 0,
+              "wins": 0,
+              "losses": 0,
+              "pushes": 0,
+              "hit_rate": null,
+              "average_estimate": null
+            }
+          },
+          "audit": {
+            "games": 240,
+            "brier": 0.5059591603092211,
+            "log_loss": 0.7364147017702247,
+            "rmse": 12.423705755167983,
+            "maximum_probability": 0.5936005686520223,
+            "top_two": {
+              "games": 32,
+              "wins": 20,
+              "losses": 12,
+              "pushes": 0,
+              "hit_rate": 0.625,
+              "average_estimate": 0.5557811004599393
+            },
+            "above_60": {
+              "games": 0,
+              "wins": 0,
+              "losses": 0,
+              "pushes": 0,
+              "hit_rate": null,
+              "average_estimate": null
+            },
+            "above_65": {
+              "games": 0,
+              "wins": 0,
+              "losses": 0,
+              "pushes": 0,
+              "hit_rate": null,
+              "average_estimate": null
+            }
+          },
+          "test": {
+            "games": 240,
+            "brier": 0.4993148118525786,
+            "log_loss": 0.7073408982411585,
+            "rmse": 12.518515288592921,
+            "maximum_probability": 0.5852803044128917,
+            "top_two": {
+              "games": 32,
+              "wins": 20,
+              "losses": 12,
+              "pushes": 0,
+              "hit_rate": 0.625,
+              "average_estimate": 0.5537525604738103
+            },
+            "above_60": {
+              "games": 0,
+              "wins": 0,
+              "losses": 0,
+              "pushes": 0,
+              "hit_rate": null,
+              "average_estimate": null
+            },
+            "above_65": {
+              "games": 0,
+              "wins": 0,
+              "losses": 0,
+              "pushes": 0,
+              "hit_rate": null,
+              "average_estimate": null
+            }
+          }
+        },
+        "algorithm": "random_forest_6 + learned situations",
+        "selection": {
+          "penalty": 8.0,
+          "mix": 0.25
+        },
+        "context_rows": 2290,
+        "comparison_basis": "Core versus selected context layer"
+      },
+      "total": {
+        "baseline": {
+          "tune": {
+            "games": 240,
+            "brier": 0.5145373145142822,
+            "log_loss": 0.736823900176402,
+            "rmse": 13.21732151843207,
+            "maximum_probability": 0.6219220600470686,
+            "top_two": {
+              "games": 32,
+              "wins": 14,
+              "losses": 18,
+              "pushes": 0,
+              "hit_rate": 0.4375,
+              "average_estimate": 0.5732360855988774
+            },
+            "above_60": {
+              "games": 3,
+              "wins": 1,
+              "losses": 2,
+              "pushes": 0,
+              "hit_rate": 0.3333333333333333,
+              "average_estimate": 0.6093497128734539
+            },
+            "above_65": {
+              "games": 0,
+              "wins": 0,
+              "losses": 0,
+              "pushes": 0,
+              "hit_rate": null,
+              "average_estimate": null
+            }
+          },
+          "audit": {
+            "games": 240,
+            "brier": 0.508287920662406,
+            "log_loss": 0.7372883098496683,
+            "rmse": 12.740232535622079,
+            "maximum_probability": 0.6053785511111469,
+            "top_two": {
+              "games": 32,
+              "wins": 20,
+              "losses": 12,
+              "pushes": 0,
+              "hit_rate": 0.625,
+              "average_estimate": 0.5618019919467042
+            },
+            "above_60": {
+              "games": 1,
+              "wins": 0,
+              "losses": 1,
+              "pushes": 0,
+              "hit_rate": 0.0,
+              "average_estimate": 0.6053785511111469
+            },
+            "above_65": {
+              "games": 0,
+              "wins": 0,
+              "losses": 0,
+              "pushes": 0,
+              "hit_rate": null,
+              "average_estimate": null
+            }
+          },
+          "test": {
+            "games": 240,
+            "brier": 0.5035218115146204,
+            "log_loss": 0.6966766943725307,
+            "rmse": 12.930237547993848,
+            "maximum_probability": 0.6159978276584488,
+            "top_two": {
+              "games": 32,
+              "wins": 16,
+              "losses": 16,
+              "pushes": 0,
+              "hit_rate": 0.5,
+              "average_estimate": 0.5625072855967763
+            },
+            "above_60": {
+              "games": 2,
+              "wins": 2,
+              "losses": 0,
+              "pushes": 0,
+              "hit_rate": 1.0,
+              "average_estimate": 0.6135537683013423
+            },
+            "above_65": {
+              "games": 0,
+              "wins": 0,
+              "losses": 0,
+              "pushes": 0,
+              "hit_rate": null,
+              "average_estimate": null
+            }
+          }
+        },
+        "selected": {
+          "tune": {
+            "games": 240,
+            "brier": 0.49562612559902475,
+            "log_loss": 0.7171954321870816,
+            "rmse": 13.129189485680405,
+            "maximum_probability": 0.770989565690598,
+            "top_two": {
+              "games": 32,
+              "wins": 23,
+              "losses": 9,
+              "pushes": 0,
+              "hit_rate": 0.71875,
+              "average_estimate": 0.644909972824488
+            },
+            "above_60": {
+              "games": 30,
+              "wins": 22,
+              "losses": 8,
+              "pushes": 0,
+              "hit_rate": 0.7333333333333333,
+              "average_estimate": 0.680883850128155
+            },
+            "above_65": {
+              "games": 22,
+              "wins": 16,
+              "losses": 6,
+              "pushes": 0,
+              "hit_rate": 0.7272727272727273,
+              "average_estimate": 0.7047832027717232
+            }
+          },
+          "audit": {
+            "games": 240,
+            "brier": 0.5060669555534336,
+            "log_loss": 0.7351760917334649,
+            "rmse": 12.69618682949685,
+            "maximum_probability": 0.7288862178888186,
+            "top_two": {
+              "games": 32,
+              "wins": 22,
+              "losses": 10,
+              "pushes": 0,
+              "hit_rate": 0.6875,
+              "average_estimate": 0.6170371842712296
+            },
+            "above_60": {
+              "games": 20,
+              "wins": 13,
+              "losses": 7,
+              "pushes": 0,
+              "hit_rate": 0.65,
+              "average_estimate": 0.6507417011060429
+            },
+            "above_65": {
+              "games": 8,
+              "wins": 6,
+              "losses": 2,
+              "pushes": 0,
+              "hit_rate": 0.75,
+              "average_estimate": 0.6915178680688456
+            }
+          },
+          "test": {
+            "games": 240,
+            "brier": 0.4964705729806145,
+            "log_loss": 0.6893062119059258,
+            "rmse": 12.873238094674964,
+            "maximum_probability": 0.7514051686734924,
+            "top_two": {
+              "games": 32,
+              "wins": 21,
+              "losses": 11,
+              "pushes": 0,
+              "hit_rate": 0.65625,
+              "average_estimate": 0.6182501877886852
+            },
+            "above_60": {
+              "games": 19,
+              "wins": 14,
+              "losses": 5,
+              "pushes": 0,
+              "hit_rate": 0.7368421052631579,
+              "average_estimate": 0.6677962009673557
+            },
+            "above_65": {
+              "games": 12,
+              "wins": 9,
+              "losses": 3,
+              "pushes": 0,
+              "hit_rate": 0.75,
+              "average_estimate": 0.6979588620009504
+            }
+          }
+        },
+        "algorithm": "Fitted residual forecast + current-season context learning",
+        "selection": {
+          "penalty": 2.0,
+          "mix": 1.0
+        },
+        "context_rows": 2290,
+        "comparison_basis": "Core versus selected context layer"
+      }
+    }
+  },
+  "selection_protocol": "Choose the best 2023 proper score among candidates that pass 2024 and 2025 probability checks. Later seasons participated in acceptance and are development checks, not untouched tests.",
+  "cfb_expansion": {
+    "protocol": "Additional development selection after a 120-candidate expanded CFB search. Require both proper scores no worse than the existing accepted CFB totals layer in both 2024 and 2025, then choose by 2023 log loss/Brier. These years are not untouched tests. No historical quote freshness, price or injury-scenario ledger exists.",
+    "selected": "online_False_2_32_0.5",
+    "parameters": {
+      "penalty": 2.0,
+      "season_prior_penalty": 32.0,
+      "mix": 0.5
+    },
+    "weekly_strategy": {
+      "active_weeks": {
+        "2023": [],
+        "2024": [
+          7,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15
+        ],
+        "2025": []
+      },
+      "combined_top_one": {
+        "2023": {
+          "games": 10,
+          "wins": 8,
+          "losses": 2,
+          "pushes": 0,
+          "hit_rate": 0.8,
+          "wilson_95": [
+            0.49016247153664183,
+            0.9433178485456247
+          ],
+          "mean_estimate": 0.6257069565628081,
+          "weeks_with_picks": 10,
+          "eligible_weeks": 13,
+          "weeks_without_picks": [
+            6,
+            14,
+            15
+          ],
+          "selections": [
+            {
+              "id": "401525837",
+              "week": 3,
+              "target": "margin",
+              "p": 0.6070432310757066,
+              "result": "Win",
+              "away": "Kansas",
+              "home": "Nevada",
+              "market": 28.5,
+              "direction": -1
+            },
+            {
+              "id": "401524015",
+              "week": 4,
+              "target": "total",
+              "p": 0.6297287613908715,
+              "result": "Win",
+              "away": "Colorado",
+              "home": "Oregon",
+              "market": 70.0,
+              "direction": -1
+            },
+            {
+              "id": "401524023",
+              "week": 5,
+              "target": "margin",
+              "p": 0.6216782281892704,
+              "result": "Win",
+              "away": "USC",
+              "home": "Colorado",
+              "market": 21.5,
+              "direction": -1
+            },
+            {
+              "id": "401524031",
+              "week": 7,
+              "target": "margin",
+              "p": 0.6424333070346226,
+              "result": "Win",
+              "away": "USC",
+              "home": "Notre Dame",
+              "market": -3.0,
+              "direction": -1
+            },
+            {
+              "id": "401524035",
+              "week": 8,
+              "target": "total",
+              "p": 0.6647360691335221,
+              "result": "Loss",
+              "away": "Washington State",
+              "home": "Oregon",
+              "market": 60.5,
+              "direction": -1
+            },
+            {
+              "id": "401531929",
+              "week": 9,
+              "target": "total",
+              "p": 0.6061742124839601,
+              "result": "Loss",
+              "away": "Georgia State",
+              "home": "Georgia Southern",
+              "market": 63.0,
+              "direction": -1
+            },
+            {
+              "id": "401520362",
+              "week": 10,
+              "target": "margin",
+              "p": 0.6026266166542182,
+              "result": "Win",
+              "away": "LSU",
+              "home": "Alabama",
+              "market": -3.0,
+              "direction": -1
+            },
+            {
+              "id": "401524053",
+              "week": 11,
+              "target": "total",
+              "p": 0.6188857536807967,
+              "result": "Win",
+              "away": "USC",
+              "home": "Oregon",
+              "market": 78.0,
+              "direction": -1
+            },
+            {
+              "id": "401520410",
+              "week": 12,
+              "target": "total",
+              "p": 0.6372518730746328,
+              "result": "Win",
+              "away": "Michigan",
+              "home": "Maryland",
+              "market": 50.5,
+              "direction": 1
+            },
+            {
+              "id": "401524065",
+              "week": 13,
+              "target": "margin",
+              "p": 0.6265115129104799,
+              "result": "Win",
+              "away": "Notre Dame",
+              "home": "Stanford",
+              "market": 26.0,
+              "direction": 1
+            }
+          ]
+        },
+        "2024": {
+          "games": 11,
+          "wins": 9,
+          "losses": 2,
+          "pushes": 0,
+          "hit_rate": 0.8181818181818182,
+          "wilson_95": [
+            0.523019438039156,
+            0.9486323102539149
+          ],
+          "mean_estimate": 0.6317865895254774,
+          "weeks_with_picks": 11,
+          "eligible_weeks": 13,
+          "weeks_without_picks": [
+            6,
+            15
+          ],
+          "selections": [
+            {
+              "id": "401643786",
+              "week": 3,
+              "target": "margin",
+              "p": 0.6090370760386181,
+              "result": "Win",
+              "away": "Coastal Carolina",
+              "home": "Temple",
+              "market": 17.5,
+              "direction": -1
+            },
+            {
+              "id": "401643790",
+              "week": 4,
+              "target": "total",
+              "p": 0.6279087002728732,
+              "result": "Win",
+              "away": "South Alabama",
+              "home": "App State",
+              "market": 62.5,
+              "direction": -1
+            },
+            {
+              "id": "401628495",
+              "week": 5,
+              "target": "total",
+              "p": 0.659943168249931,
+              "result": "Win",
+              "away": "Illinois",
+              "home": "Penn State",
+              "market": 48.5,
+              "direction": -1
+            },
+            {
+              "id": "401643803",
+              "week": 7,
+              "target": "total",
+              "p": 0.6017719203016457,
+              "result": "Win",
+              "away": "Coastal Carolina",
+              "home": "James Madison",
+              "market": 59.0,
+              "direction": -1
+            },
+            {
+              "id": "401628396",
+              "week": 8,
+              "target": "total",
+              "p": 0.6129015132007358,
+              "result": "Win",
+              "away": "South Carolina",
+              "home": "Oklahoma",
+              "market": 40.5,
+              "direction": 1
+            },
+            {
+              "id": "401628525",
+              "week": 9,
+              "target": "total",
+              "p": 0.6535826017587395,
+              "result": "Win",
+              "away": "Illinois",
+              "home": "Oregon",
+              "market": 54.0,
+              "direction": -1
+            },
+            {
+              "id": "401643820",
+              "week": 10,
+              "target": "total",
+              "p": 0.6181022279175693,
+              "result": "Win",
+              "away": "Louisiana",
+              "home": "Texas State",
+              "market": 60.5,
+              "direction": -1
+            },
+            {
+              "id": "401644760",
+              "week": 11,
+              "target": "total",
+              "p": 0.6034488936094337,
+              "result": "Loss",
+              "away": "Bowling Green",
+              "home": "Central Michigan",
+              "market": 48.5,
+              "direction": 1
+            },
+            {
+              "id": "401628552",
+              "week": 12,
+              "target": "total",
+              "p": 0.638804902680628,
+              "result": "Win",
+              "away": "Penn State",
+              "home": "Purdue",
+              "market": 51.5,
+              "direction": 1
+            },
+            {
+              "id": "401643836",
+              "week": 13,
+              "target": "margin",
+              "p": 0.6610221932030907,
+              "result": "Loss",
+              "away": "James Madison",
+              "home": "App State",
+              "market": 7.0,
+              "direction": 1
+            },
+            {
+              "id": "401636940",
+              "week": 14,
+              "target": "margin",
+              "p": 0.663129287546987,
+              "result": "Win",
+              "away": "Arizona State",
+              "home": "Arizona",
+              "market": 7.5,
+              "direction": 1
+            }
+          ]
+        },
+        "2025": {
+          "games": 10,
+          "wins": 8,
+          "losses": 2,
+          "pushes": 0,
+          "hit_rate": 0.8,
+          "wilson_95": [
+            0.49016247153664183,
+            0.9433178485456247
+          ],
+          "mean_estimate": 0.6255192585128846,
+          "weeks_with_picks": 10,
+          "eligible_weeks": 15,
+          "weeks_without_picks": [
+            2,
+            4,
+            10,
+            15,
+            16
+          ],
+          "selections": [
+            {
+              "id": "401752704",
+              "week": 3,
+              "target": "total",
+              "p": 0.6191662177499198,
+              "result": "Loss",
+              "away": "Vanderbilt",
+              "home": "South Carolina",
+              "market": 48.5,
+              "direction": 1
+            },
+            {
+              "id": "401752850",
+              "week": 5,
+              "target": "margin",
+              "p": 0.6581423524735469,
+              "result": "Win",
+              "away": "USC",
+              "home": "Illinois",
+              "market": 6.5,
+              "direction": -1
+            },
+            {
+              "id": "401752726",
+              "week": 6,
+              "target": "total",
+              "p": 0.6705921055431731,
+              "result": "Win",
+              "away": "Vanderbilt",
+              "home": "Alabama",
+              "market": 57.5,
+              "direction": -1
+            },
+            {
+              "id": "401752866",
+              "week": 7,
+              "target": "total",
+              "p": 0.6028935525339635,
+              "result": "Win",
+              "away": "Northwestern",
+              "home": "Penn State",
+              "market": 46.5,
+              "direction": -1
+            },
+            {
+              "id": "401752744",
+              "week": 8,
+              "target": "margin",
+              "p": 0.618402517726773,
+              "result": "Win",
+              "away": "Oklahoma",
+              "home": "South Carolina",
+              "market": 4.5,
+              "direction": 1
+            },
+            {
+              "id": "401752748",
+              "week": 9,
+              "target": "total",
+              "p": 0.625201320865363,
+              "result": "Win",
+              "away": "Texas A&M",
+              "home": "LSU",
+              "market": 50.5,
+              "direction": 1
+            },
+            {
+              "id": "401761644",
+              "week": 11,
+              "target": "total",
+              "p": 0.6241666782743349,
+              "result": "Win",
+              "away": "Georgia Southern",
+              "home": "App State",
+              "market": 61.5,
+              "direction": -1
+            },
+            {
+              "id": "401752772",
+              "week": 12,
+              "target": "margin",
+              "p": 0.6040763581974294,
+              "result": "Loss",
+              "away": "South Carolina",
+              "home": "Texas A&M",
+              "market": -16.5,
+              "direction": -1
+            },
+            {
+              "id": "401752914",
+              "week": 13,
+              "target": "total",
+              "p": 0.6128911427287304,
+              "result": "Win",
+              "away": "Michigan",
+              "home": "Maryland",
+              "market": 46.5,
+              "direction": 1
+            },
+            {
+              "id": "401752920",
+              "week": 14,
+              "target": "total",
+              "p": 0.6196603390356118,
+              "result": "Win",
+              "away": "Penn State",
+              "home": "Rutgers",
+              "market": 55.5,
+              "direction": 1
+            }
+          ]
+        },
+        "pooled_2024_2025": {
+          "games": 21,
+          "wins": 17,
+          "losses": 4,
+          "pushes": 0,
+          "hit_rate": 0.8095238095238095,
+          "wilson_95": [
+            0.5999943530979508,
+            0.9233243494723822
+          ],
+          "mean_estimate": 0.6288021461861475
+        }
+      },
+      "combined_top_two": {
+        "2023": {
+          "games": 15,
+          "wins": 13,
+          "losses": 2,
+          "pushes": 0,
+          "hit_rate": 0.8666666666666667,
+          "wilson_95": [
+            0.6211801716767764,
+            0.9626387408969346
+          ],
+          "mean_estimate": 0.6237085284621467,
+          "weeks_with_picks": 10,
+          "eligible_weeks": 13,
+          "weeks_without_picks": [
+            6,
+            14,
+            15
+          ],
+          "selections": [
+            {
+              "id": "401525837",
+              "week": 3,
+              "target": "margin",
+              "p": 0.6070432310757066,
+              "result": "Win",
+              "away": "Kansas",
+              "home": "Nevada",
+              "market": 28.5,
+              "direction": -1
+            },
+            {
+              "id": "401524015",
+              "week": 4,
+              "target": "total",
+              "p": 0.6297287613908715,
+              "result": "Win",
+              "away": "Colorado",
+              "home": "Oregon",
+              "market": 70.0,
+              "direction": -1
+            },
+            {
+              "id": "401531849",
+              "week": 4,
+              "target": "total",
+              "p": 0.62769629827718,
+              "result": "Win",
+              "away": "Georgia State",
+              "home": "Coastal Carolina",
+              "market": 62.5,
+              "direction": -1
+            },
+            {
+              "id": "401524023",
+              "week": 5,
+              "target": "margin",
+              "p": 0.6216782281892704,
+              "result": "Win",
+              "away": "USC",
+              "home": "Colorado",
+              "market": 21.5,
+              "direction": -1
+            },
+            {
+              "id": "401532587",
+              "week": 5,
+              "target": "margin",
+              "p": 0.6022841254373188,
+              "result": "Win",
+              "away": "Nevada",
+              "home": "Fresno State",
+              "market": -24.5,
+              "direction": 1
+            },
+            {
+              "id": "401524031",
+              "week": 7,
+              "target": "margin",
+              "p": 0.6424333070346226,
+              "result": "Win",
+              "away": "USC",
+              "home": "Notre Dame",
+              "market": -3.0,
+              "direction": -1
+            },
+            {
+              "id": "401531888",
+              "week": 7,
+              "target": "total",
+              "p": 0.6395240089846768,
+              "result": "Win",
+              "away": "Coastal Carolina",
+              "home": "App State",
+              "market": 59.0,
+              "direction": -1
+            },
+            {
+              "id": "401524035",
+              "week": 8,
+              "target": "total",
+              "p": 0.6647360691335221,
+              "result": "Loss",
+              "away": "Washington State",
+              "home": "Oregon",
+              "market": 60.5,
+              "direction": -1
+            },
+            {
+              "id": "401531929",
+              "week": 9,
+              "target": "total",
+              "p": 0.6061742124839601,
+              "result": "Loss",
+              "away": "Georgia State",
+              "home": "Georgia Southern",
+              "market": 63.0,
+              "direction": -1
+            },
+            {
+              "id": "401520362",
+              "week": 10,
+              "target": "margin",
+              "p": 0.6026266166542182,
+              "result": "Win",
+              "away": "LSU",
+              "home": "Alabama",
+              "market": -3.0,
+              "direction": -1
+            },
+            {
+              "id": "401524053",
+              "week": 11,
+              "target": "total",
+              "p": 0.6188857536807967,
+              "result": "Win",
+              "away": "USC",
+              "home": "Oregon",
+              "market": 78.0,
+              "direction": -1
+            },
+            {
+              "id": "401532442",
+              "week": 11,
+              "target": "margin",
+              "p": 0.6182824273487789,
+              "result": "Win",
+              "away": "Bowling Green",
+              "home": "Kent State",
+              "market": 10.5,
+              "direction": 1
+            },
+            {
+              "id": "401520410",
+              "week": 12,
+              "target": "total",
+              "p": 0.6372518730746328,
+              "result": "Win",
+              "away": "Michigan",
+              "home": "Maryland",
+              "market": 50.5,
+              "direction": 1
+            },
+            {
+              "id": "401524065",
+              "week": 13,
+              "target": "margin",
+              "p": 0.6265115129104799,
+              "result": "Win",
+              "away": "Notre Dame",
+              "home": "Stanford",
+              "market": 26.0,
+              "direction": 1
+            },
+            {
+              "id": "401525900",
+              "week": 13,
+              "target": "margin",
+              "p": 0.6107715012561655,
+              "result": "Win",
+              "away": "TCU",
+              "home": "Oklahoma",
+              "market": -11.5,
+              "direction": -1
+            }
+          ]
+        },
+        "2024": {
+          "games": 17,
+          "wins": 13,
+          "losses": 4,
+          "pushes": 0,
+          "hit_rate": 0.7647058823529411,
+          "wilson_95": [
+            0.5273820188043501,
+            0.9044495567791988
+          ],
+          "mean_estimate": 0.626226923304953,
+          "weeks_with_picks": 11,
+          "eligible_weeks": 13,
+          "weeks_without_picks": [
+            6,
+            15
+          ],
+          "selections": [
+            {
+              "id": "401643786",
+              "week": 3,
+              "target": "margin",
+              "p": 0.6090370760386181,
+              "result": "Win",
+              "away": "Coastal Carolina",
+              "home": "Temple",
+              "market": 17.5,
+              "direction": -1
+            },
+            {
+              "id": "401636864",
+              "week": 3,
+              "target": "margin",
+              "p": 0.6048471738881576,
+              "result": "Win",
+              "away": "Arizona",
+              "home": "Kansas State",
+              "market": -7.0,
+              "direction": -1
+            },
+            {
+              "id": "401643790",
+              "week": 4,
+              "target": "total",
+              "p": 0.6279087002728732,
+              "result": "Win",
+              "away": "South Alabama",
+              "home": "App State",
+              "market": 62.5,
+              "direction": -1
+            },
+            {
+              "id": "401628495",
+              "week": 5,
+              "target": "total",
+              "p": 0.659943168249931,
+              "result": "Win",
+              "away": "Illinois",
+              "home": "Penn State",
+              "market": 48.5,
+              "direction": -1
+            },
+            {
+              "id": "401636883",
+              "week": 5,
+              "target": "margin",
+              "p": 0.6043997466349669,
+              "result": "Win",
+              "away": "Oklahoma State",
+              "home": "Kansas State",
+              "market": -6.0,
+              "direction": -1
+            },
+            {
+              "id": "401643803",
+              "week": 7,
+              "target": "total",
+              "p": 0.6017719203016457,
+              "result": "Win",
+              "away": "Coastal Carolina",
+              "home": "James Madison",
+              "market": 59.0,
+              "direction": -1
+            },
+            {
+              "id": "401628396",
+              "week": 8,
+              "target": "total",
+              "p": 0.6129015132007358,
+              "result": "Win",
+              "away": "South Carolina",
+              "home": "Oklahoma",
+              "market": 40.5,
+              "direction": 1
+            },
+            {
+              "id": "401628525",
+              "week": 9,
+              "target": "total",
+              "p": 0.6535826017587395,
+              "result": "Win",
+              "away": "Illinois",
+              "home": "Oregon",
+              "market": 54.0,
+              "direction": -1
+            },
+            {
+              "id": "401635596",
+              "week": 9,
+              "target": "margin",
+              "p": 0.616032261625459,
+              "result": "Loss",
+              "away": "Florida State",
+              "home": "Miami",
+              "market": -22.5,
+              "direction": -1
+            },
+            {
+              "id": "401643820",
+              "week": 10,
+              "target": "total",
+              "p": 0.6181022279175693,
+              "result": "Win",
+              "away": "Louisiana",
+              "home": "Texas State",
+              "market": 60.5,
+              "direction": -1
+            },
+            {
+              "id": "401644760",
+              "week": 11,
+              "target": "total",
+              "p": 0.6034488936094337,
+              "result": "Loss",
+              "away": "Bowling Green",
+              "home": "Central Michigan",
+              "market": 48.5,
+              "direction": 1
+            },
+            {
+              "id": "401628552",
+              "week": 12,
+              "target": "total",
+              "p": 0.638804902680628,
+              "result": "Win",
+              "away": "Penn State",
+              "home": "Purdue",
+              "market": 51.5,
+              "direction": 1
+            },
+            {
+              "id": "401628551",
+              "week": 12,
+              "target": "total",
+              "p": 0.63641762106676,
+              "result": "Loss",
+              "away": "Oregon",
+              "home": "Wisconsin",
+              "market": 49.5,
+              "direction": 1
+            },
+            {
+              "id": "401643836",
+              "week": 13,
+              "target": "margin",
+              "p": 0.6610221932030907,
+              "result": "Loss",
+              "away": "James Madison",
+              "home": "App State",
+              "market": 7.0,
+              "direction": 1
+            },
+            {
+              "id": "401628432",
+              "week": 13,
+              "target": "margin",
+              "p": 0.6083987217036614,
+              "result": "Win",
+              "away": "Missouri",
+              "home": "Mississippi State",
+              "market": 9.5,
+              "direction": 1
+            },
+            {
+              "id": "401636940",
+              "week": 14,
+              "target": "margin",
+              "p": 0.663129287546987,
+              "result": "Win",
+              "away": "Arizona State",
+              "home": "Arizona",
+              "market": 7.5,
+              "direction": 1
+            },
+            {
+              "id": "401628563",
+              "week": 14,
+              "target": "margin",
+              "p": 0.6261096864849441,
+              "result": "Win",
+              "away": "Illinois",
+              "home": "Northwestern",
+              "market": 9.0,
+              "direction": 1
+            }
+          ]
+        },
+        "2025": {
+          "games": 15,
+          "wins": 10,
+          "losses": 5,
+          "pushes": 0,
+          "hit_rate": 0.6666666666666666,
+          "wilson_95": [
+            0.41713547738519763,
+            0.8482367556028527
+          ],
+          "mean_estimate": 0.619364492352918,
+          "weeks_with_picks": 10,
+          "eligible_weeks": 15,
+          "weeks_without_picks": [
+            2,
+            4,
+            10,
+            15,
+            16
+          ],
+          "selections": [
+            {
+              "id": "401752704",
+              "week": 3,
+              "target": "total",
+              "p": 0.6191662177499198,
+              "result": "Loss",
+              "away": "Vanderbilt",
+              "home": "South Carolina",
+              "market": 48.5,
+              "direction": 1
+            },
+            {
+              "id": "401756890",
+              "week": 3,
+              "target": "margin",
+              "p": 0.6077594094740892,
+              "result": "Loss",
+              "away": "Iowa State",
+              "home": "Arkansas State",
+              "market": 21.0,
+              "direction": 1
+            },
+            {
+              "id": "401752850",
+              "week": 5,
+              "target": "margin",
+              "p": 0.6581423524735469,
+              "result": "Win",
+              "away": "USC",
+              "home": "Illinois",
+              "market": 6.5,
+              "direction": -1
+            },
+            {
+              "id": "401752726",
+              "week": 6,
+              "target": "total",
+              "p": 0.6705921055431731,
+              "result": "Win",
+              "away": "Vanderbilt",
+              "home": "Alabama",
+              "market": 57.5,
+              "direction": -1
+            },
+            {
+              "id": "401752866",
+              "week": 7,
+              "target": "total",
+              "p": 0.6028935525339635,
+              "result": "Win",
+              "away": "Northwestern",
+              "home": "Penn State",
+              "market": 46.5,
+              "direction": -1
+            },
+            {
+              "id": "401752744",
+              "week": 8,
+              "target": "margin",
+              "p": 0.618402517726773,
+              "result": "Win",
+              "away": "Oklahoma",
+              "home": "South Carolina",
+              "market": 4.5,
+              "direction": 1
+            },
+            {
+              "id": "401752745",
+              "week": 8,
+              "target": "total",
+              "p": 0.602661582908139,
+              "result": "Win",
+              "away": "LSU",
+              "home": "Vanderbilt",
+              "market": 48.5,
+              "direction": 1
+            },
+            {
+              "id": "401752748",
+              "week": 9,
+              "target": "total",
+              "p": 0.625201320865363,
+              "result": "Win",
+              "away": "Texas A&M",
+              "home": "LSU",
+              "market": 50.5,
+              "direction": 1
+            },
+            {
+              "id": "401761644",
+              "week": 11,
+              "target": "total",
+              "p": 0.6241666782743349,
+              "result": "Win",
+              "away": "Georgia Southern",
+              "home": "App State",
+              "market": 61.5,
+              "direction": -1
+            },
+            {
+              "id": "401752897",
+              "week": 11,
+              "target": "total",
+              "p": 0.6141154530377109,
+              "result": "Loss",
+              "away": "Ohio State",
+              "home": "Purdue",
+              "market": 49.5,
+              "direction": 1
+            },
+            {
+              "id": "401752772",
+              "week": 12,
+              "target": "margin",
+              "p": 0.6040763581974294,
+              "result": "Loss",
+              "away": "South Carolina",
+              "home": "Texas A&M",
+              "market": -16.5,
+              "direction": -1
+            },
+            {
+              "id": "401752914",
+              "week": 13,
+              "target": "total",
+              "p": 0.6128911427287304,
+              "result": "Win",
+              "away": "Michigan",
+              "home": "Maryland",
+              "market": 46.5,
+              "direction": 1
+            },
+            {
+              "id": "401761658",
+              "week": 13,
+              "target": "margin",
+              "p": 0.6048772231984357,
+              "result": "Loss",
+              "away": "Southern Miss",
+              "home": "South Alabama",
+              "market": 2.5,
+              "direction": 1
+            },
+            {
+              "id": "401752920",
+              "week": 14,
+              "target": "total",
+              "p": 0.6196603390356118,
+              "result": "Win",
+              "away": "Penn State",
+              "home": "Rutgers",
+              "market": 55.5,
+              "direction": 1
+            },
+            {
+              "id": "401752924",
+              "week": 14,
+              "target": "total",
+              "p": 0.605861131546549,
+              "result": "Win",
+              "away": "Indiana",
+              "home": "Purdue",
+              "market": 54.5,
+              "direction": 1
+            }
+          ]
+        },
+        "pooled_2024_2025": {
+          "games": 32,
+          "wins": 23,
+          "losses": 9,
+          "pushes": 0,
+          "hit_rate": 0.71875,
+          "wilson_95": [
+            0.5462549057408342,
+            0.8443541950225723
+          ],
+          "mean_estimate": 0.6230101587961866
+        }
+      }
+    },
+    "previous_weekly_strategy": {
+      "top_one": {
+        "2023": {
+          "games": 8,
+          "wins": 7,
+          "losses": 1,
+          "pushes": 0,
+          "hit_rate": 0.875,
+          "wilson_95": [
+            0.5291118177871464,
+            0.9775825085499433
+          ],
+          "mean_estimate": 0.6163243430202656,
+          "weeks_with_picks": 8,
+          "eligible_weeks": 13,
+          "weeks_without_picks": [
+            6,
+            9,
+            12,
+            14,
+            15
+          ],
+          "selections": [
+            {
+              "id": "401525837",
+              "week": 3,
+              "target": "margin",
+              "p": 0.6070432310757066,
+              "result": "Win",
+              "away": "Kansas",
+              "home": "Nevada",
+              "market": 28.5,
+              "direction": -1
+            },
+            {
+              "id": "401524015",
+              "week": 4,
+              "target": "total",
+              "p": 0.6020621781009038,
+              "result": "Win",
+              "away": "Colorado",
+              "home": "Oregon",
+              "market": 70.0,
+              "direction": -1
+            },
+            {
+              "id": "401524023",
+              "week": 5,
+              "target": "margin",
+              "p": 0.6216782281892704,
+              "result": "Win",
+              "away": "USC",
+              "home": "Colorado",
+              "market": 21.5,
+              "direction": -1
+            },
+            {
+              "id": "401524031",
+              "week": 7,
+              "target": "margin",
+              "p": 0.6424333070346226,
+              "result": "Win",
+              "away": "USC",
+              "home": "Notre Dame",
+              "market": -3.0,
+              "direction": -1
+            },
+            {
+              "id": "401524035",
+              "week": 8,
+              "target": "total",
+              "p": 0.6099572428481448,
+              "result": "Loss",
+              "away": "Washington State",
+              "home": "Oregon",
+              "market": 60.5,
+              "direction": -1
+            },
+            {
+              "id": "401520362",
+              "week": 10,
+              "target": "margin",
+              "p": 0.6026266166542182,
+              "result": "Win",
+              "away": "LSU",
+              "home": "Alabama",
+              "market": -3.0,
+              "direction": -1
+            },
+            {
+              "id": "401532442",
+              "week": 11,
+              "target": "margin",
+              "p": 0.6182824273487789,
+              "result": "Win",
+              "away": "Bowling Green",
+              "home": "Kent State",
+              "market": 10.5,
+              "direction": 1
+            },
+            {
+              "id": "401524065",
+              "week": 13,
+              "target": "margin",
+              "p": 0.6265115129104799,
+              "result": "Win",
+              "away": "Notre Dame",
+              "home": "Stanford",
+              "market": 26.0,
+              "direction": 1
+            }
+          ]
+        },
+        "2024": {
+          "games": 6,
+          "wins": 4,
+          "losses": 2,
+          "pushes": 0,
+          "hit_rate": 0.6666666666666666,
+          "wilson_95": [
+            0.299993315138392,
+            0.9032285888942195
+          ],
+          "mean_estimate": 0.6289377862331088,
+          "weeks_with_picks": 6,
+          "eligible_weeks": 13,
+          "weeks_without_picks": [
+            4,
+            6,
+            7,
+            8,
+            10,
+            11,
+            15
+          ],
+          "selections": [
+            {
+              "id": "401643786",
+              "week": 3,
+              "target": "margin",
+              "p": 0.6090370760386181,
+              "result": "Win",
+              "away": "Coastal Carolina",
+              "home": "Temple",
+              "market": 17.5,
+              "direction": -1
+            },
+            {
+              "id": "401636883",
+              "week": 5,
+              "target": "margin",
+              "p": 0.6043997466349669,
+              "result": "Win",
+              "away": "Oklahoma State",
+              "home": "Kansas State",
+              "market": -6.0,
+              "direction": -1
+            },
+            {
+              "id": "401635596",
+              "week": 9,
+              "target": "margin",
+              "p": 0.616032261625459,
+              "result": "Loss",
+              "away": "Florida State",
+              "home": "Miami",
+              "market": -22.5,
+              "direction": -1
+            },
+            {
+              "id": "401628421",
+              "week": 12,
+              "target": "margin",
+              "p": 0.6200061523495313,
+              "result": "Win",
+              "away": "Tennessee",
+              "home": "Georgia",
+              "market": -8.5,
+              "direction": -1
+            },
+            {
+              "id": "401643836",
+              "week": 13,
+              "target": "margin",
+              "p": 0.6610221932030907,
+              "result": "Loss",
+              "away": "James Madison",
+              "home": "App State",
+              "market": 7.0,
+              "direction": 1
+            },
+            {
+              "id": "401636940",
+              "week": 14,
+              "target": "margin",
+              "p": 0.663129287546987,
+              "result": "Win",
+              "away": "Arizona State",
+              "home": "Arizona",
+              "market": 7.5,
+              "direction": 1
+            }
+          ]
+        },
+        "2025": {
+          "games": 8,
+          "wins": 4,
+          "losses": 4,
+          "pushes": 0,
+          "hit_rate": 0.5,
+          "wilson_95": [
+            0.21521606221387757,
+            0.7847839377861224
+          ],
+          "mean_estimate": 0.6148113558546118,
+          "weeks_with_picks": 8,
+          "eligible_weeks": 15,
+          "weeks_without_picks": [
+            2,
+            7,
+            9,
+            10,
+            11,
+            15,
+            16
+          ],
+          "selections": [
+            {
+              "id": "401756890",
+              "week": 3,
+              "target": "margin",
+              "p": 0.6077594094740892,
+              "result": "Loss",
+              "away": "Iowa State",
+              "home": "Arkansas State",
+              "market": 21.0,
+              "direction": 1
+            },
+            {
+              "id": "401752713",
+              "week": 4,
+              "target": "total",
+              "p": 0.610473381917569,
+              "result": "Loss",
+              "away": "South Carolina",
+              "home": "Missouri",
+              "market": 48.5,
+              "direction": -1
+            },
+            {
+              "id": "401752850",
+              "week": 5,
+              "target": "margin",
+              "p": 0.6581423524735469,
+              "result": "Win",
+              "away": "USC",
+              "home": "Illinois",
+              "market": 6.5,
+              "direction": -1
+            },
+            {
+              "id": "401752726",
+              "week": 6,
+              "target": "total",
+              "p": 0.6089928221057803,
+              "result": "Win",
+              "away": "Vanderbilt",
+              "home": "Alabama",
+              "market": 57.5,
+              "direction": -1
+            },
+            {
+              "id": "401752744",
+              "week": 8,
+              "target": "margin",
+              "p": 0.618402517726773,
+              "result": "Win",
+              "away": "Oklahoma",
+              "home": "South Carolina",
+              "market": 4.5,
+              "direction": 1
+            },
+            {
+              "id": "401752772",
+              "week": 12,
+              "target": "margin",
+              "p": 0.6040763581974294,
+              "result": "Loss",
+              "away": "South Carolina",
+              "home": "Texas A&M",
+              "market": -16.5,
+              "direction": -1
+            },
+            {
+              "id": "401761658",
+              "week": 13,
+              "target": "margin",
+              "p": 0.6048772231984357,
+              "result": "Loss",
+              "away": "Southern Miss",
+              "home": "South Alabama",
+              "market": 2.5,
+              "direction": 1
+            },
+            {
+              "id": "401757311",
+              "week": 14,
+              "target": "margin",
+              "p": 0.6057667817432703,
+              "result": "Win",
+              "away": "Florida International",
+              "home": "Sam Houston",
+              "market": 10.5,
+              "direction": 1
+            }
+          ]
+        },
+        "pooled_2024_2025": {
+          "games": 14,
+          "wins": 8,
+          "losses": 6,
+          "pushes": 0,
+          "hit_rate": 0.5714285714285714,
+          "wilson_95": [
+            0.3259064457965074,
+            0.7861920109552588
+          ],
+          "mean_estimate": 0.620865540302539
+        }
+      },
+      "top_two": {
+        "2023": {
+          "games": 10,
+          "wins": 9,
+          "losses": 1,
+          "pushes": 0,
+          "hit_rate": 0.9,
+          "wilson_95": [
+            0.5958499732047615,
+            0.9821237869049271
+          ],
+          "mean_estimate": 0.6143650370855609,
+          "weeks_with_picks": 8,
+          "eligible_weeks": 13,
+          "weeks_without_picks": [
+            6,
+            9,
+            12,
+            14,
+            15
+          ],
+          "selections": [
+            {
+              "id": "401525837",
+              "week": 3,
+              "target": "margin",
+              "p": 0.6070432310757066,
+              "result": "Win",
+              "away": "Kansas",
+              "home": "Nevada",
+              "market": 28.5,
+              "direction": -1
+            },
+            {
+              "id": "401524015",
+              "week": 4,
+              "target": "total",
+              "p": 0.6020621781009038,
+              "result": "Win",
+              "away": "Colorado",
+              "home": "Oregon",
+              "market": 70.0,
+              "direction": -1
+            },
+            {
+              "id": "401524023",
+              "week": 5,
+              "target": "margin",
+              "p": 0.6216782281892704,
+              "result": "Win",
+              "away": "USC",
+              "home": "Colorado",
+              "market": 21.5,
+              "direction": -1
+            },
+            {
+              "id": "401532587",
+              "week": 5,
+              "target": "margin",
+              "p": 0.6022841254373188,
+              "result": "Win",
+              "away": "Nevada",
+              "home": "Fresno State",
+              "market": -24.5,
+              "direction": 1
+            },
+            {
+              "id": "401524031",
+              "week": 7,
+              "target": "margin",
+              "p": 0.6424333070346226,
+              "result": "Win",
+              "away": "USC",
+              "home": "Notre Dame",
+              "market": -3.0,
+              "direction": -1
+            },
+            {
+              "id": "401524035",
+              "week": 8,
+              "target": "total",
+              "p": 0.6099572428481448,
+              "result": "Loss",
+              "away": "Washington State",
+              "home": "Oregon",
+              "market": 60.5,
+              "direction": -1
+            },
+            {
+              "id": "401520362",
+              "week": 10,
+              "target": "margin",
+              "p": 0.6026266166542182,
+              "result": "Win",
+              "away": "LSU",
+              "home": "Alabama",
+              "market": -3.0,
+              "direction": -1
+            },
+            {
+              "id": "401532442",
+              "week": 11,
+              "target": "margin",
+              "p": 0.6182824273487789,
+              "result": "Win",
+              "away": "Bowling Green",
+              "home": "Kent State",
+              "market": 10.5,
+              "direction": 1
+            },
+            {
+              "id": "401524065",
+              "week": 13,
+              "target": "margin",
+              "p": 0.6265115129104799,
+              "result": "Win",
+              "away": "Notre Dame",
+              "home": "Stanford",
+              "market": 26.0,
+              "direction": 1
+            },
+            {
+              "id": "401525900",
+              "week": 13,
+              "target": "margin",
+              "p": 0.6107715012561655,
+              "result": "Win",
+              "away": "TCU",
+              "home": "Oklahoma",
+              "market": -11.5,
+              "direction": -1
+            }
+          ]
+        },
+        "2024": {
+          "games": 11,
+          "wins": 8,
+          "losses": 3,
+          "pushes": 0,
+          "hit_rate": 0.7272727272727273,
+          "wilson_95": [
+            0.43435469882387084,
+            0.902539407099751
+          ],
+          "mean_estimate": 0.6208891422825993,
+          "weeks_with_picks": 6,
+          "eligible_weeks": 13,
+          "weeks_without_picks": [
+            4,
+            6,
+            7,
+            8,
+            10,
+            11,
+            15
+          ],
+          "selections": [
+            {
+              "id": "401643786",
+              "week": 3,
+              "target": "margin",
+              "p": 0.6090370760386181,
+              "result": "Win",
+              "away": "Coastal Carolina",
+              "home": "Temple",
+              "market": 17.5,
+              "direction": -1
+            },
+            {
+              "id": "401636864",
+              "week": 3,
+              "target": "margin",
+              "p": 0.6048471738881576,
+              "result": "Win",
+              "away": "Arizona",
+              "home": "Kansas State",
+              "market": -7.0,
+              "direction": -1
+            },
+            {
+              "id": "401636883",
+              "week": 5,
+              "target": "margin",
+              "p": 0.6043997466349669,
+              "result": "Win",
+              "away": "Oklahoma State",
+              "home": "Kansas State",
+              "market": -6.0,
+              "direction": -1
+            },
+            {
+              "id": "401643719",
+              "week": 5,
+              "target": "margin",
+              "p": 0.6015787219947923,
+              "result": "Win",
+              "away": "Washington State",
+              "home": "Boise State",
+              "market": -6.5,
+              "direction": -1
+            },
+            {
+              "id": "401635596",
+              "week": 9,
+              "target": "margin",
+              "p": 0.616032261625459,
+              "result": "Loss",
+              "away": "Florida State",
+              "home": "Miami",
+              "market": -22.5,
+              "direction": -1
+            },
+            {
+              "id": "401628421",
+              "week": 12,
+              "target": "margin",
+              "p": 0.6200061523495313,
+              "result": "Win",
+              "away": "Tennessee",
+              "home": "Georgia",
+              "market": -8.5,
+              "direction": -1
+            },
+            {
+              "id": "401636924",
+              "week": 12,
+              "target": "margin",
+              "p": 0.615219543638384,
+              "result": "Loss",
+              "away": "Kansas",
+              "home": "BYU",
+              "market": -2.5,
+              "direction": -1
+            },
+            {
+              "id": "401643836",
+              "week": 13,
+              "target": "margin",
+              "p": 0.6610221932030907,
+              "result": "Loss",
+              "away": "James Madison",
+              "home": "App State",
+              "market": 7.0,
+              "direction": 1
+            },
+            {
+              "id": "401628432",
+              "week": 13,
+              "target": "margin",
+              "p": 0.6083987217036614,
+              "result": "Win",
+              "away": "Missouri",
+              "home": "Mississippi State",
+              "market": 9.5,
+              "direction": 1
+            },
+            {
+              "id": "401636940",
+              "week": 14,
+              "target": "margin",
+              "p": 0.663129287546987,
+              "result": "Win",
+              "away": "Arizona State",
+              "home": "Arizona",
+              "market": 7.5,
+              "direction": 1
+            },
+            {
+              "id": "401628563",
+              "week": 14,
+              "target": "margin",
+              "p": 0.6261096864849441,
+              "result": "Win",
+              "away": "Illinois",
+              "home": "Northwestern",
+              "market": 9.0,
+              "direction": 1
+            }
+          ]
+        },
+        "2025": {
+          "games": 9,
+          "wins": 4,
+          "losses": 5,
+          "pushes": 0,
+          "hit_rate": 0.4444444444444444,
+          "wilson_95": [
+            0.18877852109766452,
+            0.733348706504507
+          ],
+          "mean_estimate": 0.6134287009832806,
+          "weeks_with_picks": 8,
+          "eligible_weeks": 15,
+          "weeks_without_picks": [
+            2,
+            7,
+            9,
+            10,
+            11,
+            15,
+            16
+          ],
+          "selections": [
+            {
+              "id": "401756890",
+              "week": 3,
+              "target": "margin",
+              "p": 0.6077594094740892,
+              "result": "Loss",
+              "away": "Iowa State",
+              "home": "Arkansas State",
+              "market": 21.0,
+              "direction": 1
+            },
+            {
+              "id": "401752713",
+              "week": 4,
+              "target": "total",
+              "p": 0.610473381917569,
+              "result": "Loss",
+              "away": "South Carolina",
+              "home": "Missouri",
+              "market": 48.5,
+              "direction": -1
+            },
+            {
+              "id": "401752850",
+              "week": 5,
+              "target": "margin",
+              "p": 0.6581423524735469,
+              "result": "Win",
+              "away": "USC",
+              "home": "Illinois",
+              "market": 6.5,
+              "direction": -1
+            },
+            {
+              "id": "401752726",
+              "week": 6,
+              "target": "total",
+              "p": 0.6089928221057803,
+              "result": "Win",
+              "away": "Vanderbilt",
+              "home": "Alabama",
+              "market": 57.5,
+              "direction": -1
+            },
+            {
+              "id": "401752744",
+              "week": 8,
+              "target": "margin",
+              "p": 0.618402517726773,
+              "result": "Win",
+              "away": "Oklahoma",
+              "home": "South Carolina",
+              "market": 4.5,
+              "direction": 1
+            },
+            {
+              "id": "401752772",
+              "week": 12,
+              "target": "margin",
+              "p": 0.6040763581974294,
+              "result": "Loss",
+              "away": "South Carolina",
+              "home": "Texas A&M",
+              "market": -16.5,
+              "direction": -1
+            },
+            {
+              "id": "401761658",
+              "week": 13,
+              "target": "margin",
+              "p": 0.6048772231984357,
+              "result": "Loss",
+              "away": "Southern Miss",
+              "home": "South Alabama",
+              "market": 2.5,
+              "direction": 1
+            },
+            {
+              "id": "401752911",
+              "week": 13,
+              "target": "total",
+              "p": 0.6023674620126319,
+              "result": "Loss",
+              "away": "USC",
+              "home": "Oregon",
+              "market": 59.5,
+              "direction": -1
+            },
+            {
+              "id": "401757311",
+              "week": 14,
+              "target": "margin",
+              "p": 0.6057667817432703,
+              "result": "Win",
+              "away": "Florida International",
+              "home": "Sam Houston",
+              "market": 10.5,
+              "direction": 1
+            }
+          ]
+        },
+        "pooled_2024_2025": {
+          "games": 20,
+          "wins": 12,
+          "losses": 8,
+          "pushes": 0,
+          "hit_rate": 0.6,
+          "wilson_95": [
+            0.38658150076225317,
+            0.7811934676271829
+          ],
+          "mean_estimate": 0.6175319436979059
+        }
+      }
+    },
+    "historical_variants": {
+      "frozen_prior": {
+        "tune": {
+          "games": 577,
+          "brier": 0.5120207729573327,
+          "log_loss": 0.7475314751683968,
+          "rmse": 15.650121090250481,
+          "maximum_probability": 0.6647360691335221,
+          "top_two": {
+            "games": 25,
+            "wins": 14,
+            "losses": 10,
+            "pushes": 1,
+            "hit_rate": 0.5833333333333334,
+            "average_estimate": 0.5698531092057239
+          },
+          "above_60": {
+            "games": 7,
+            "wins": 5,
+            "losses": 2,
+            "pushes": 0,
+            "hit_rate": 0.7142857142857143,
+            "average_estimate": 0.6319995681465199
+          },
+          "above_65": {
+            "games": 1,
+            "wins": 0,
+            "losses": 1,
+            "pushes": 0,
+            "hit_rate": 0.0,
+            "average_estimate": 0.6647360691335221
+          }
+        },
+        "audit": {
+          "games": 616,
+          "brier": 0.5118343746007891,
+          "log_loss": 0.7539152002167724,
+          "rmse": 16.321567351112776,
+          "maximum_probability": 0.659943168249931,
+          "top_two": {
+            "games": 26,
+            "wins": 17,
+            "losses": 8,
+            "pushes": 1,
+            "hit_rate": 0.68,
+            "average_estimate": 0.5916280910442402
+          },
+          "above_60": {
+            "games": 9,
+            "wins": 7,
+            "losses": 2,
+            "pushes": 0,
+            "hit_rate": 0.7777777777777778,
+            "average_estimate": 0.6273751040170306
+          },
+          "above_65": {
+            "games": 1,
+            "wins": 1,
+            "losses": 0,
+            "pushes": 0,
+            "hit_rate": 1.0,
+            "average_estimate": 0.659943168249931
+          }
+        },
+        "test": {
+          "games": 661,
+          "brier": 0.5043158412207753,
+          "log_loss": 0.7134745066093033,
+          "rmse": 15.175378939373823,
+          "maximum_probability": 0.6705921055431731,
+          "top_two": {
+            "games": 28,
+            "wins": 16,
+            "losses": 12,
+            "pushes": 0,
+            "hit_rate": 0.5714285714285714,
+            "average_estimate": 0.5836839565802766
+          },
+          "above_60": {
+            "games": 12,
+            "wins": 9,
+            "losses": 3,
+            "pushes": 0,
+            "hit_rate": 0.75,
+            "average_estimate": 0.6176383797509618
+          },
+          "above_65": {
+            "games": 1,
+            "wins": 1,
+            "losses": 0,
+            "pushes": 0,
+            "hit_rate": 1.0,
+            "average_estimate": 0.6705921055431731
+          }
+        }
+      },
+      "guarded_update": {
+        "tune": {
+          "games": 577,
+          "brier": 0.5120207729573327,
+          "log_loss": 0.7475314751683968,
+          "rmse": 15.650121090250481,
+          "maximum_probability": 0.6647360691335221,
+          "top_two": {
+            "games": 25,
+            "wins": 14,
+            "losses": 10,
+            "pushes": 1,
+            "hit_rate": 0.5833333333333334,
+            "average_estimate": 0.5698531092057239
+          },
+          "above_60": {
+            "games": 7,
+            "wins": 5,
+            "losses": 2,
+            "pushes": 0,
+            "hit_rate": 0.7142857142857143,
+            "average_estimate": 0.6319995681465199
+          },
+          "above_65": {
+            "games": 1,
+            "wins": 0,
+            "losses": 1,
+            "pushes": 0,
+            "hit_rate": 0.0,
+            "average_estimate": 0.6647360691335221
+          }
+        },
+        "audit": {
+          "games": 616,
+          "brier": 0.5116835905105368,
+          "log_loss": 0.7537612366806088,
+          "rmse": 16.3205775412056,
+          "maximum_probability": 0.659943168249931,
+          "top_two": {
+            "games": 26,
+            "wins": 17,
+            "losses": 8,
+            "pushes": 1,
+            "hit_rate": 0.68,
+            "average_estimate": 0.593684885640831
+          },
+          "above_60": {
+            "games": 11,
+            "wins": 8,
+            "losses": 3,
+            "pushes": 0,
+            "hit_rate": 0.7272727272727273,
+            "average_estimate": 0.6242236156503882
+          },
+          "above_65": {
+            "games": 2,
+            "wins": 2,
+            "losses": 0,
+            "pushes": 0,
+            "hit_rate": 1.0,
+            "average_estimate": 0.6567628850043352
+          }
+        },
+        "test": {
+          "games": 661,
+          "brier": 0.5043158412207753,
+          "log_loss": 0.7134745066093033,
+          "rmse": 15.175378939373823,
+          "maximum_probability": 0.6705921055431731,
+          "top_two": {
+            "games": 28,
+            "wins": 16,
+            "losses": 12,
+            "pushes": 0,
+            "hit_rate": 0.5714285714285714,
+            "average_estimate": 0.5836839565802766
+          },
+          "above_60": {
+            "games": 12,
+            "wins": 9,
+            "losses": 3,
+            "pushes": 0,
+            "hit_rate": 0.75,
+            "average_estimate": 0.6176383797509618
+          },
+          "above_65": {
+            "games": 1,
+            "wins": 1,
+            "losses": 0,
+            "pushes": 0,
+            "hit_rate": 1.0,
+            "average_estimate": 0.6705921055431731
+          }
+        }
+      }
+    },
+    "candidate_search_count": 120
+  },
+  "current_NFL_2026": {
+    "comparisons": {
+      "margin": {
+        "old": {
+          "games": 46,
+          "probability_games": 46,
+          "rmse": 11.611873140136263,
+          "mean_actual_minus_forecast": 0.6761509900487187,
+          "brier": 0.6001056314359964,
+          "log_loss": 1.0048939807550317,
+          "probability_buckets": {
+            "Below 60%": {
+              "games": 46,
+              "wins": 23,
+              "pushes": 5,
+              "mean_estimate": 0.5101639713249265,
+              "observed_win_rate": 0.5
+            }
+          }
+        },
+        "new": {
+          "games": 46,
+          "probability_games": 46,
+          "rmse": 11.66809661363782,
+          "mean_actual_minus_forecast": 0.7064088928145413,
+          "brier": 0.5980095675393856,
+          "log_loss": 1.002574375981696,
+          "probability_buckets": {
+            "Below 60%": {
+              "games": 46,
+              "wins": 22,
+              "pushes": 5,
+              "mean_estimate": 0.5248805611622412,
+              "observed_win_rate": 0.4782608695652174
+            }
+          }
+        }
+      },
+      "total": {
+        "old": {
+          "games": 46,
+          "probability_games": 46,
+          "rmse": 11.628675704168275,
+          "mean_actual_minus_forecast": 2.0141118280236996,
+          "brier": 0.5120982983420229,
+          "log_loss": 0.7054383595145891,
+          "probability_buckets": {
+            "Below 60%": {
+              "games": 44,
+              "wins": 19,
+              "pushes": 0,
+              "mean_estimate": 0.529568888700426,
+              "observed_win_rate": 0.4318181818181818
+            },
+            "60\u201370%": {
+              "games": 2,
+              "wins": 0,
+              "pushes": 0,
+              "mean_estimate": 0.6215542438055536,
+              "observed_win_rate": 0.0
+            }
+          }
+        },
+        "new": {
+          "games": 46,
+          "probability_games": 46,
+          "rmse": 12.040250679517632,
+          "mean_actual_minus_forecast": 2.8137336148328767,
+          "brier": 0.5194196954329056,
+          "log_loss": 0.7126914613844637,
+          "probability_buckets": {
+            "Below 60%": {
+              "games": 38,
+              "wins": 16,
+              "pushes": 0,
+              "mean_estimate": 0.5336523553090907,
+              "observed_win_rate": 0.42105263157894735
+            },
+            "60\u201370%": {
+              "games": 8,
+              "wins": 4,
+              "pushes": 0,
+              "mean_estimate": 0.6377318915983095,
+              "observed_win_rate": 0.5
+            }
+          }
+        }
+      }
+    },
+    "rows": 46,
+    "basis": "Dated prior-week reconstruction through the saved quote cutoff; closing references, not a frozen live pick ledger"
+  },
+  "combined_shortlists": {
+    "CFB": {
+      "2023": {
+        "top_two_above_60": {
+          "games": 15,
+          "wins": 13,
+          "losses": 2,
+          "pushes": 0,
+          "hit_rate": 0.8666666666666667,
+          "wilson_95": [
+            0.6211801716767764,
+            0.9626387408969346
+          ],
+          "mean_estimate": 0.6237085284621467
+        },
+        "top_one_above_60": {
+          "games": 10,
+          "wins": 8,
+          "losses": 2,
+          "pushes": 0,
+          "hit_rate": 0.8,
+          "wilson_95": [
+            0.49016247153664183,
+            0.9433178485456247
+          ],
+          "mean_estimate": 0.6257069565628081
+        },
+        "weekly_coverage": 10,
+        "eligible_weeks": 13,
+        "weeks_without_picks": [
+          6,
+          14,
+          15
+        ],
+        "selections": [
+          {
+            "id": "401525837",
+            "week": 3,
+            "target": "margin",
+            "p": 0.6070432310757066,
+            "result": "Win",
+            "away": "Kansas",
+            "home": "Nevada",
+            "market": 28.5,
+            "direction": -1
+          },
+          {
+            "id": "401524015",
+            "week": 4,
+            "target": "total",
+            "p": 0.6297287613908715,
+            "result": "Win",
+            "away": "Colorado",
+            "home": "Oregon",
+            "market": 70.0,
+            "direction": -1
+          },
+          {
+            "id": "401531849",
+            "week": 4,
+            "target": "total",
+            "p": 0.62769629827718,
+            "result": "Win",
+            "away": "Georgia State",
+            "home": "Coastal Carolina",
+            "market": 62.5,
+            "direction": -1
+          },
+          {
+            "id": "401524023",
+            "week": 5,
+            "target": "margin",
+            "p": 0.6216782281892704,
+            "result": "Win",
+            "away": "USC",
+            "home": "Colorado",
+            "market": 21.5,
+            "direction": -1
+          },
+          {
+            "id": "401532587",
+            "week": 5,
+            "target": "margin",
+            "p": 0.6022841254373188,
+            "result": "Win",
+            "away": "Nevada",
+            "home": "Fresno State",
+            "market": -24.5,
+            "direction": 1
+          },
+          {
+            "id": "401524031",
+            "week": 7,
+            "target": "margin",
+            "p": 0.6424333070346226,
+            "result": "Win",
+            "away": "USC",
+            "home": "Notre Dame",
+            "market": -3.0,
+            "direction": -1
+          },
+          {
+            "id": "401531888",
+            "week": 7,
+            "target": "total",
+            "p": 0.6395240089846768,
+            "result": "Win",
+            "away": "Coastal Carolina",
+            "home": "App State",
+            "market": 59.0,
+            "direction": -1
+          },
+          {
+            "id": "401524035",
+            "week": 8,
+            "target": "total",
+            "p": 0.6647360691335221,
+            "result": "Loss",
+            "away": "Washington State",
+            "home": "Oregon",
+            "market": 60.5,
+            "direction": -1
+          },
+          {
+            "id": "401531929",
+            "week": 9,
+            "target": "total",
+            "p": 0.6061742124839601,
+            "result": "Loss",
+            "away": "Georgia State",
+            "home": "Georgia Southern",
+            "market": 63.0,
+            "direction": -1
+          },
+          {
+            "id": "401520362",
+            "week": 10,
+            "target": "margin",
+            "p": 0.6026266166542182,
+            "result": "Win",
+            "away": "LSU",
+            "home": "Alabama",
+            "market": -3.0,
+            "direction": -1
+          },
+          {
+            "id": "401524053",
+            "week": 11,
+            "target": "total",
+            "p": 0.6188857536807967,
+            "result": "Win",
+            "away": "USC",
+            "home": "Oregon",
+            "market": 78.0,
+            "direction": -1
+          },
+          {
+            "id": "401532442",
+            "week": 11,
+            "target": "margin",
+            "p": 0.6182824273487789,
+            "result": "Win",
+            "away": "Bowling Green",
+            "home": "Kent State",
+            "market": 10.5,
+            "direction": 1
+          },
+          {
+            "id": "401520410",
+            "week": 12,
+            "target": "total",
+            "p": 0.6372518730746328,
+            "result": "Win",
+            "away": "Michigan",
+            "home": "Maryland",
+            "market": 50.5,
+            "direction": 1
+          },
+          {
+            "id": "401524065",
+            "week": 13,
+            "target": "margin",
+            "p": 0.6265115129104799,
+            "result": "Win",
+            "away": "Notre Dame",
+            "home": "Stanford",
+            "market": 26.0,
+            "direction": 1
+          },
+          {
+            "id": "401525900",
+            "week": 13,
+            "target": "margin",
+            "p": 0.6107715012561655,
+            "result": "Win",
+            "away": "TCU",
+            "home": "Oklahoma",
+            "market": -11.5,
+            "direction": -1
+          }
+        ]
+      },
+      "2024": {
+        "top_two_above_60": {
+          "games": 17,
+          "wins": 13,
+          "losses": 4,
+          "pushes": 0,
+          "hit_rate": 0.7647058823529411,
+          "wilson_95": [
+            0.5273820188043501,
+            0.9044495567791988
+          ],
+          "mean_estimate": 0.626226923304953
+        },
+        "top_one_above_60": {
+          "games": 11,
+          "wins": 9,
+          "losses": 2,
+          "pushes": 0,
+          "hit_rate": 0.8181818181818182,
+          "wilson_95": [
+            0.523019438039156,
+            0.9486323102539149
+          ],
+          "mean_estimate": 0.6317865895254774
+        },
+        "weekly_coverage": 11,
+        "eligible_weeks": 13,
+        "weeks_without_picks": [
+          6,
+          15
+        ],
+        "selections": [
+          {
+            "id": "401643786",
+            "week": 3,
+            "target": "margin",
+            "p": 0.6090370760386181,
+            "result": "Win",
+            "away": "Coastal Carolina",
+            "home": "Temple",
+            "market": 17.5,
+            "direction": -1
+          },
+          {
+            "id": "401636864",
+            "week": 3,
+            "target": "margin",
+            "p": 0.6048471738881576,
+            "result": "Win",
+            "away": "Arizona",
+            "home": "Kansas State",
+            "market": -7.0,
+            "direction": -1
+          },
+          {
+            "id": "401643790",
+            "week": 4,
+            "target": "total",
+            "p": 0.6279087002728732,
+            "result": "Win",
+            "away": "South Alabama",
+            "home": "App State",
+            "market": 62.5,
+            "direction": -1
+          },
+          {
+            "id": "401628495",
+            "week": 5,
+            "target": "total",
+            "p": 0.659943168249931,
+            "result": "Win",
+            "away": "Illinois",
+            "home": "Penn State",
+            "market": 48.5,
+            "direction": -1
+          },
+          {
+            "id": "401636883",
+            "week": 5,
+            "target": "margin",
+            "p": 0.6043997466349669,
+            "result": "Win",
+            "away": "Oklahoma State",
+            "home": "Kansas State",
+            "market": -6.0,
+            "direction": -1
+          },
+          {
+            "id": "401643803",
+            "week": 7,
+            "target": "total",
+            "p": 0.6017719203016457,
+            "result": "Win",
+            "away": "Coastal Carolina",
+            "home": "James Madison",
+            "market": 59.0,
+            "direction": -1
+          },
+          {
+            "id": "401628396",
+            "week": 8,
+            "target": "total",
+            "p": 0.6129015132007358,
+            "result": "Win",
+            "away": "South Carolina",
+            "home": "Oklahoma",
+            "market": 40.5,
+            "direction": 1
+          },
+          {
+            "id": "401628525",
+            "week": 9,
+            "target": "total",
+            "p": 0.6535826017587395,
+            "result": "Win",
+            "away": "Illinois",
+            "home": "Oregon",
+            "market": 54.0,
+            "direction": -1
+          },
+          {
+            "id": "401635596",
+            "week": 9,
+            "target": "margin",
+            "p": 0.616032261625459,
+            "result": "Loss",
+            "away": "Florida State",
+            "home": "Miami",
+            "market": -22.5,
+            "direction": -1
+          },
+          {
+            "id": "401643820",
+            "week": 10,
+            "target": "total",
+            "p": 0.6181022279175693,
+            "result": "Win",
+            "away": "Louisiana",
+            "home": "Texas State",
+            "market": 60.5,
+            "direction": -1
+          },
+          {
+            "id": "401644760",
+            "week": 11,
+            "target": "total",
+            "p": 0.6034488936094337,
+            "result": "Loss",
+            "away": "Bowling Green",
+            "home": "Central Michigan",
+            "market": 48.5,
+            "direction": 1
+          },
+          {
+            "id": "401628552",
+            "week": 12,
+            "target": "total",
+            "p": 0.638804902680628,
+            "result": "Win",
+            "away": "Penn State",
+            "home": "Purdue",
+            "market": 51.5,
+            "direction": 1
+          },
+          {
+            "id": "401628551",
+            "week": 12,
+            "target": "total",
+            "p": 0.63641762106676,
+            "result": "Loss",
+            "away": "Oregon",
+            "home": "Wisconsin",
+            "market": 49.5,
+            "direction": 1
+          },
+          {
+            "id": "401643836",
+            "week": 13,
+            "target": "margin",
+            "p": 0.6610221932030907,
+            "result": "Loss",
+            "away": "James Madison",
+            "home": "App State",
+            "market": 7.0,
+            "direction": 1
+          },
+          {
+            "id": "401628432",
+            "week": 13,
+            "target": "margin",
+            "p": 0.6083987217036614,
+            "result": "Win",
+            "away": "Missouri",
+            "home": "Mississippi State",
+            "market": 9.5,
+            "direction": 1
+          },
+          {
+            "id": "401636940",
+            "week": 14,
+            "target": "margin",
+            "p": 0.663129287546987,
+            "result": "Win",
+            "away": "Arizona State",
+            "home": "Arizona",
+            "market": 7.5,
+            "direction": 1
+          },
+          {
+            "id": "401628563",
+            "week": 14,
+            "target": "margin",
+            "p": 0.6261096864849441,
+            "result": "Win",
+            "away": "Illinois",
+            "home": "Northwestern",
+            "market": 9.0,
+            "direction": 1
+          }
+        ]
+      },
+      "2025": {
+        "top_two_above_60": {
+          "games": 15,
+          "wins": 10,
+          "losses": 5,
+          "pushes": 0,
+          "hit_rate": 0.6666666666666666,
+          "wilson_95": [
+            0.41713547738519763,
+            0.8482367556028527
+          ],
+          "mean_estimate": 0.619364492352918
+        },
+        "top_one_above_60": {
+          "games": 10,
+          "wins": 8,
+          "losses": 2,
+          "pushes": 0,
+          "hit_rate": 0.8,
+          "wilson_95": [
+            0.49016247153664183,
+            0.9433178485456247
+          ],
+          "mean_estimate": 0.6255192585128846
+        },
+        "weekly_coverage": 10,
+        "eligible_weeks": 15,
+        "weeks_without_picks": [
+          2,
+          4,
+          10,
+          15,
+          16
+        ],
+        "selections": [
+          {
+            "id": "401752704",
+            "week": 3,
+            "target": "total",
+            "p": 0.6191662177499198,
+            "result": "Loss",
+            "away": "Vanderbilt",
+            "home": "South Carolina",
+            "market": 48.5,
+            "direction": 1
+          },
+          {
+            "id": "401756890",
+            "week": 3,
+            "target": "margin",
+            "p": 0.6077594094740892,
+            "result": "Loss",
+            "away": "Iowa State",
+            "home": "Arkansas State",
+            "market": 21.0,
+            "direction": 1
+          },
+          {
+            "id": "401752850",
+            "week": 5,
+            "target": "margin",
+            "p": 0.6581423524735469,
+            "result": "Win",
+            "away": "USC",
+            "home": "Illinois",
+            "market": 6.5,
+            "direction": -1
+          },
+          {
+            "id": "401752726",
+            "week": 6,
+            "target": "total",
+            "p": 0.6705921055431731,
+            "result": "Win",
+            "away": "Vanderbilt",
+            "home": "Alabama",
+            "market": 57.5,
+            "direction": -1
+          },
+          {
+            "id": "401752866",
+            "week": 7,
+            "target": "total",
+            "p": 0.6028935525339635,
+            "result": "Win",
+            "away": "Northwestern",
+            "home": "Penn State",
+            "market": 46.5,
+            "direction": -1
+          },
+          {
+            "id": "401752744",
+            "week": 8,
+            "target": "margin",
+            "p": 0.618402517726773,
+            "result": "Win",
+            "away": "Oklahoma",
+            "home": "South Carolina",
+            "market": 4.5,
+            "direction": 1
+          },
+          {
+            "id": "401752745",
+            "week": 8,
+            "target": "total",
+            "p": 0.602661582908139,
+            "result": "Win",
+            "away": "LSU",
+            "home": "Vanderbilt",
+            "market": 48.5,
+            "direction": 1
+          },
+          {
+            "id": "401752748",
+            "week": 9,
+            "target": "total",
+            "p": 0.625201320865363,
+            "result": "Win",
+            "away": "Texas A&M",
+            "home": "LSU",
+            "market": 50.5,
+            "direction": 1
+          },
+          {
+            "id": "401761644",
+            "week": 11,
+            "target": "total",
+            "p": 0.6241666782743349,
+            "result": "Win",
+            "away": "Georgia Southern",
+            "home": "App State",
+            "market": 61.5,
+            "direction": -1
+          },
+          {
+            "id": "401752897",
+            "week": 11,
+            "target": "total",
+            "p": 0.6141154530377109,
+            "result": "Loss",
+            "away": "Ohio State",
+            "home": "Purdue",
+            "market": 49.5,
+            "direction": 1
+          },
+          {
+            "id": "401752772",
+            "week": 12,
+            "target": "margin",
+            "p": 0.6040763581974294,
+            "result": "Loss",
+            "away": "South Carolina",
+            "home": "Texas A&M",
+            "market": -16.5,
+            "direction": -1
+          },
+          {
+            "id": "401752914",
+            "week": 13,
+            "target": "total",
+            "p": 0.6128911427287304,
+            "result": "Win",
+            "away": "Michigan",
+            "home": "Maryland",
+            "market": 46.5,
+            "direction": 1
+          },
+          {
+            "id": "401761658",
+            "week": 13,
+            "target": "margin",
+            "p": 0.6048772231984357,
+            "result": "Loss",
+            "away": "Southern Miss",
+            "home": "South Alabama",
+            "market": 2.5,
+            "direction": 1
+          },
+          {
+            "id": "401752920",
+            "week": 14,
+            "target": "total",
+            "p": 0.6196603390356118,
+            "result": "Win",
+            "away": "Penn State",
+            "home": "Rutgers",
+            "market": 55.5,
+            "direction": 1
+          },
+          {
+            "id": "401752924",
+            "week": 14,
+            "target": "total",
+            "p": 0.605861131546549,
+            "result": "Win",
+            "away": "Indiana",
+            "home": "Purdue",
+            "market": 54.5,
+            "direction": 1
+          }
+        ]
+      }
+    },
+    "NFL": {
+      "2023": {
+        "top_two_above_60": {
+          "games": 20,
+          "wins": 16,
+          "losses": 4,
+          "pushes": 0,
+          "hit_rate": 0.8,
+          "mean_estimate": 0.6892688074791103
+        },
+        "all_above_60": {
+          "games": 31,
+          "wins": 23,
+          "losses": 8,
+          "pushes": 0,
+          "hit_rate": 0.7419354838709677,
+          "mean_estimate": 0.6785804216083303
+        },
+        "weekly_coverage": 13,
+        "eligible_weeks": 16,
+        "weeks_without_picks": [
+          4,
+          13,
+          16
+        ],
+        "selections": [
+          {
+            "id": "2023_03_PIT_LV",
+            "week": 3,
+            "target": "total",
+            "p": 0.6048380659956412,
+            "result": "Win"
+          },
+          {
+            "id": "2023_05_BAL_PIT",
+            "week": 5,
+            "target": "total",
+            "p": 0.6166856606585398,
+            "result": "Win"
+          },
+          {
+            "id": "2023_06_SEA_CIN",
+            "week": 6,
+            "target": "total",
+            "p": 0.6144662930154501,
+            "result": "Win"
+          },
+          {
+            "id": "2023_07_GB_DEN",
+            "week": 7,
+            "target": "total",
+            "p": 0.6681107349294877,
+            "result": "Win"
+          },
+          {
+            "id": "2023_07_PIT_LA",
+            "week": 7,
+            "target": "total",
+            "p": 0.663241743322427,
+            "result": "Win"
+          },
+          {
+            "id": "2023_08_KC_DEN",
+            "week": 8,
+            "target": "total",
+            "p": 0.7408995616914428,
+            "result": "Win"
+          },
+          {
+            "id": "2023_08_CIN_SF",
+            "week": 8,
+            "target": "total",
+            "p": 0.7190972195723178,
+            "result": "Loss"
+          },
+          {
+            "id": "2023_09_DAL_PHI",
+            "week": 9,
+            "target": "total",
+            "p": 0.7478073283369755,
+            "result": "Loss"
+          },
+          {
+            "id": "2023_09_IND_CAR",
+            "week": 9,
+            "target": "total",
+            "p": 0.6862894445039538,
+            "result": "Win"
+          },
+          {
+            "id": "2023_10_SF_JAX",
+            "week": 10,
+            "target": "total",
+            "p": 0.770989565690598,
+            "result": "Win"
+          },
+          {
+            "id": "2023_10_DEN_BUF",
+            "week": 10,
+            "target": "total",
+            "p": 0.733877785374754,
+            "result": "Win"
+          },
+          {
+            "id": "2023_11_NYG_WAS",
+            "week": 11,
+            "target": "total",
+            "p": 0.7442749299650169,
+            "result": "Loss"
+          },
+          {
+            "id": "2023_11_PHI_KC",
+            "week": 11,
+            "target": "total",
+            "p": 0.6699246921886649,
+            "result": "Win"
+          },
+          {
+            "id": "2023_12_NO_ATL",
+            "week": 12,
+            "target": "total",
+            "p": 0.7122537742155611,
+            "result": "Win"
+          },
+          {
+            "id": "2023_12_NE_NYG",
+            "week": 12,
+            "target": "total",
+            "p": 0.6564324961145217,
+            "result": "Win"
+          },
+          {
+            "id": "2023_14_BUF_KC",
+            "week": 14,
+            "target": "total",
+            "p": 0.7662430010325885,
+            "result": "Win"
+          },
+          {
+            "id": "2023_14_MIN_LV",
+            "week": 14,
+            "target": "total",
+            "p": 0.7110150401235567,
+            "result": "Win"
+          },
+          {
+            "id": "2023_15_WAS_LA",
+            "week": 15,
+            "target": "total",
+            "p": 0.7347454675815601,
+            "result": "Win"
+          },
+          {
+            "id": "2023_17_NYJ_CLE",
+            "week": 17,
+            "target": "total",
+            "p": 0.6022612852220821,
+            "result": "Win"
+          },
+          {
+            "id": "2023_18_NYJ_NE",
+            "week": 18,
+            "target": "total",
+            "p": 0.6219220600470686,
+            "result": "Loss"
+          }
+        ]
+      },
+      "2024": {
+        "top_two_above_60": {
+          "games": 18,
+          "wins": 12,
+          "losses": 6,
+          "pushes": 0,
+          "hit_rate": 0.6666666666666666,
+          "mean_estimate": 0.6538859943297114
+        },
+        "all_above_60": {
+          "games": 20,
+          "wins": 13,
+          "losses": 7,
+          "pushes": 0,
+          "hit_rate": 0.65,
+          "mean_estimate": 0.650741701106043
+        },
+        "weekly_coverage": 13,
+        "eligible_weeks": 16,
+        "weeks_without_picks": [
+          4,
+          5,
+          18
+        ],
+        "selections": [
+          {
+            "id": "2024_03_LAC_PIT",
+            "week": 3,
+            "target": "total",
+            "p": 0.6053785511111468,
+            "result": "Loss"
+          },
+          {
+            "id": "2024_03_DEN_TB",
+            "week": 3,
+            "target": "total",
+            "p": 0.6020680347185209,
+            "result": "Win"
+          },
+          {
+            "id": "2024_06_DET_DAL",
+            "week": 6,
+            "target": "total",
+            "p": 0.7114163319534025,
+            "result": "Loss"
+          },
+          {
+            "id": "2024_07_LV_LA",
+            "week": 7,
+            "target": "total",
+            "p": 0.613796110608925,
+            "result": "Win"
+          },
+          {
+            "id": "2024_08_CHI_WAS",
+            "week": 8,
+            "target": "total",
+            "p": 0.6657759265145741,
+            "result": "Win"
+          },
+          {
+            "id": "2024_08_DAL_SF",
+            "week": 8,
+            "target": "total",
+            "p": 0.6358217714624445,
+            "result": "Loss"
+          },
+          {
+            "id": "2024_09_LA_SEA",
+            "week": 9,
+            "target": "total",
+            "p": 0.6817276188018343,
+            "result": "Win"
+          },
+          {
+            "id": "2024_09_DET_GB",
+            "week": 9,
+            "target": "total",
+            "p": 0.6463570264142227,
+            "result": "Win"
+          },
+          {
+            "id": "2024_10_SF_TB",
+            "week": 10,
+            "target": "total",
+            "p": 0.6582458450384142,
+            "result": "Win"
+          },
+          {
+            "id": "2024_10_PIT_WAS",
+            "week": 10,
+            "target": "total",
+            "p": 0.6169080593751415,
+            "result": "Loss"
+          },
+          {
+            "id": "2024_11_SEA_SF",
+            "week": 11,
+            "target": "total",
+            "p": 0.6092263687044402,
+            "result": "Win"
+          },
+          {
+            "id": "2024_12_ARI_SEA",
+            "week": 12,
+            "target": "total",
+            "p": 0.6269611707540077,
+            "result": "Win"
+          },
+          {
+            "id": "2024_13_HOU_JAX",
+            "week": 13,
+            "target": "total",
+            "p": 0.7288862178888186,
+            "result": "Win"
+          },
+          {
+            "id": "2024_14_JAX_TEN",
+            "week": 14,
+            "target": "total",
+            "p": 0.708806729764697,
+            "result": "Win"
+          },
+          {
+            "id": "2024_15_DAL_CAR",
+            "week": 15,
+            "target": "total",
+            "p": 0.7073786986422442,
+            "result": "Loss"
+          },
+          {
+            "id": "2024_15_BAL_NYG",
+            "week": 15,
+            "target": "total",
+            "p": 0.6407279056958668,
+            "result": "Loss"
+          },
+          {
+            "id": "2024_16_JAX_LV",
+            "week": 16,
+            "target": "total",
+            "p": 0.6699055759467804,
+            "result": "Win"
+          },
+          {
+            "id": "2024_17_TEN_JAX",
+            "week": 17,
+            "target": "total",
+            "p": 0.6405599545393236,
+            "result": "Win"
+          }
+        ]
+      },
+      "2025": {
+        "top_two_above_60": {
+          "games": 15,
+          "wins": 12,
+          "losses": 3,
+          "pushes": 0,
+          "hit_rate": 0.8,
+          "mean_estimate": 0.6806119850118982
+        },
+        "all_above_60": {
+          "games": 19,
+          "wins": 14,
+          "losses": 5,
+          "pushes": 0,
+          "hit_rate": 0.7368421052631579,
+          "mean_estimate": 0.6677962009673557
+        },
+        "weekly_coverage": 10,
+        "eligible_weeks": 16,
+        "weeks_without_picks": [
+          3,
+          5,
+          9,
+          12,
+          13,
+          16
+        ],
+        "selections": [
+          {
+            "id": "2025_04_NYJ_MIA",
+            "week": 4,
+            "target": "total",
+            "p": 0.7163738745588769,
+            "result": "Loss"
+          },
+          {
+            "id": "2025_06_CHI_WAS",
+            "week": 6,
+            "target": "total",
+            "p": 0.6982929564231912,
+            "result": "Win"
+          },
+          {
+            "id": "2025_06_NE_NO",
+            "week": 6,
+            "target": "total",
+            "p": 0.6087613248451416,
+            "result": "Win"
+          },
+          {
+            "id": "2025_07_HOU_SEA",
+            "week": 7,
+            "target": "total",
+            "p": 0.6676635596600301,
+            "result": "Loss"
+          },
+          {
+            "id": "2025_07_NO_CHI",
+            "week": 7,
+            "target": "total",
+            "p": 0.6089142786634784,
+            "result": "Win"
+          },
+          {
+            "id": "2025_08_TB_NO",
+            "week": 8,
+            "target": "total",
+            "p": 0.6764266459556787,
+            "result": "Win"
+          },
+          {
+            "id": "2025_08_NYG_PHI",
+            "week": 8,
+            "target": "total",
+            "p": 0.6696118149970107,
+            "result": "Loss"
+          },
+          {
+            "id": "2025_10_NO_CAR",
+            "week": 10,
+            "target": "total",
+            "p": 0.7514051686734924,
+            "result": "Win"
+          },
+          {
+            "id": "2025_11_WAS_MIA",
+            "week": 11,
+            "target": "total",
+            "p": 0.7091496804125927,
+            "result": "Win"
+          },
+          {
+            "id": "2025_11_KC_DEN",
+            "week": 11,
+            "target": "total",
+            "p": 0.6652708687957437,
+            "result": "Win"
+          },
+          {
+            "id": "2025_14_TEN_CLE",
+            "week": 14,
+            "target": "total",
+            "p": 0.6159978276584489,
+            "result": "Win"
+          },
+          {
+            "id": "2025_15_CAR_NO",
+            "week": 15,
+            "target": "total",
+            "p": 0.706138078862611,
+            "result": "Win"
+          },
+          {
+            "id": "2025_17_PIT_CLE",
+            "week": 17,
+            "target": "total",
+            "p": 0.7027114581439619,
+            "result": "Win"
+          },
+          {
+            "id": "2025_18_NO_ATL",
+            "week": 18,
+            "target": "total",
+            "p": 0.7196377504510847,
+            "result": "Win"
+          },
+          {
+            "id": "2025_18_GB_MIN",
+            "week": 18,
+            "target": "total",
+            "p": 0.6928244870771311,
+            "result": "Win"
+          }
+        ]
+      }
+    },
+    "previous_CFB": {
+      "2023": {
+        "top_two_above_60": {
+          "games": 10,
+          "wins": 9,
+          "losses": 1,
+          "pushes": 0,
+          "hit_rate": 0.9,
+          "mean_estimate": 0.6143650370855609
+        },
+        "all_above_60": {
+          "games": 10,
+          "wins": 9,
+          "losses": 1,
+          "pushes": 0,
+          "hit_rate": 0.9,
+          "mean_estimate": 0.6143650370855609
+        },
+        "weekly_coverage": 8,
+        "eligible_weeks": 13,
+        "weeks_without_picks": [
+          6,
+          9,
+          12,
+          14,
+          15
+        ],
+        "selections": [
+          {
+            "id": "401525837",
+            "week": 3,
+            "target": "margin",
+            "p": 0.6070432310757066,
+            "result": "Win"
+          },
+          {
+            "id": "401524015",
+            "week": 4,
+            "target": "total",
+            "p": 0.6020621781009038,
+            "result": "Win"
+          },
+          {
+            "id": "401524023",
+            "week": 5,
+            "target": "margin",
+            "p": 0.6216782281892704,
+            "result": "Win"
+          },
+          {
+            "id": "401532587",
+            "week": 5,
+            "target": "margin",
+            "p": 0.6022841254373188,
+            "result": "Win"
+          },
+          {
+            "id": "401524031",
+            "week": 7,
+            "target": "margin",
+            "p": 0.6424333070346226,
+            "result": "Win"
+          },
+          {
+            "id": "401524035",
+            "week": 8,
+            "target": "total",
+            "p": 0.6099572428481448,
+            "result": "Loss"
+          },
+          {
+            "id": "401520362",
+            "week": 10,
+            "target": "margin",
+            "p": 0.6026266166542182,
+            "result": "Win"
+          },
+          {
+            "id": "401532442",
+            "week": 11,
+            "target": "margin",
+            "p": 0.6182824273487789,
+            "result": "Win"
+          },
+          {
+            "id": "401524065",
+            "week": 13,
+            "target": "margin",
+            "p": 0.6265115129104799,
+            "result": "Win"
+          },
+          {
+            "id": "401525900",
+            "week": 13,
+            "target": "margin",
+            "p": 0.6107715012561655,
+            "result": "Win"
+          }
+        ]
+      },
+      "2024": {
+        "top_two_above_60": {
+          "games": 11,
+          "wins": 8,
+          "losses": 3,
+          "pushes": 0,
+          "hit_rate": 0.7272727272727273,
+          "mean_estimate": 0.6208891422825993
+        },
+        "all_above_60": {
+          "games": 12,
+          "wins": 9,
+          "losses": 3,
+          "pushes": 0,
+          "hit_rate": 0.75,
+          "mean_estimate": 0.6208716053328379
+        },
+        "weekly_coverage": 6,
+        "eligible_weeks": 13,
+        "weeks_without_picks": [
+          4,
+          6,
+          7,
+          8,
+          10,
+          11,
+          15
+        ],
+        "selections": [
+          {
+            "id": "401643786",
+            "week": 3,
+            "target": "margin",
+            "p": 0.6090370760386181,
+            "result": "Win"
+          },
+          {
+            "id": "401636864",
+            "week": 3,
+            "target": "margin",
+            "p": 0.6048471738881576,
+            "result": "Win"
+          },
+          {
+            "id": "401636883",
+            "week": 5,
+            "target": "margin",
+            "p": 0.6043997466349669,
+            "result": "Win"
+          },
+          {
+            "id": "401643719",
+            "week": 5,
+            "target": "margin",
+            "p": 0.6015787219947923,
+            "result": "Win"
+          },
+          {
+            "id": "401635596",
+            "week": 9,
+            "target": "margin",
+            "p": 0.616032261625459,
+            "result": "Loss"
+          },
+          {
+            "id": "401628421",
+            "week": 12,
+            "target": "margin",
+            "p": 0.6200061523495313,
+            "result": "Win"
+          },
+          {
+            "id": "401636924",
+            "week": 12,
+            "target": "margin",
+            "p": 0.615219543638384,
+            "result": "Loss"
+          },
+          {
+            "id": "401643836",
+            "week": 13,
+            "target": "margin",
+            "p": 0.6610221932030907,
+            "result": "Loss"
+          },
+          {
+            "id": "401628432",
+            "week": 13,
+            "target": "margin",
+            "p": 0.6083987217036614,
+            "result": "Win"
+          },
+          {
+            "id": "401636940",
+            "week": 14,
+            "target": "margin",
+            "p": 0.663129287546987,
+            "result": "Win"
+          },
+          {
+            "id": "401628563",
+            "week": 14,
+            "target": "margin",
+            "p": 0.6261096864849441,
+            "result": "Win"
+          }
+        ]
+      },
+      "2025": {
+        "top_two_above_60": {
+          "games": 9,
+          "wins": 4,
+          "losses": 5,
+          "pushes": 0,
+          "hit_rate": 0.4444444444444444,
+          "mean_estimate": 0.6134287009832806
+        },
+        "all_above_60": {
+          "games": 9,
+          "wins": 4,
+          "losses": 5,
+          "pushes": 0,
+          "hit_rate": 0.4444444444444444,
+          "mean_estimate": 0.6134287009832806
+        },
+        "weekly_coverage": 8,
+        "eligible_weeks": 15,
+        "weeks_without_picks": [
+          2,
+          7,
+          9,
+          10,
+          11,
+          15,
+          16
+        ],
+        "selections": [
+          {
+            "id": "401756890",
+            "week": 3,
+            "target": "margin",
+            "p": 0.6077594094740892,
+            "result": "Loss"
+          },
+          {
+            "id": "401752713",
+            "week": 4,
+            "target": "total",
+            "p": 0.610473381917569,
+            "result": "Loss"
+          },
+          {
+            "id": "401752850",
+            "week": 5,
+            "target": "margin",
+            "p": 0.6581423524735469,
+            "result": "Win"
+          },
+          {
+            "id": "401752726",
+            "week": 6,
+            "target": "total",
+            "p": 0.6089928221057803,
+            "result": "Win"
+          },
+          {
+            "id": "401752744",
+            "week": 8,
+            "target": "margin",
+            "p": 0.618402517726773,
+            "result": "Win"
+          },
+          {
+            "id": "401752772",
+            "week": 12,
+            "target": "margin",
+            "p": 0.6040763581974294,
+            "result": "Loss"
+          },
+          {
+            "id": "401761658",
+            "week": 13,
+            "target": "margin",
+            "p": 0.6048772231984357,
+            "result": "Loss"
+          },
+          {
+            "id": "401752911",
+            "week": 13,
+            "target": "total",
+            "p": 0.6023674620126319,
+            "result": "Loss"
+          },
+          {
+            "id": "401757311",
+            "week": 14,
+            "target": "margin",
+            "p": 0.6057667817432703,
+            "result": "Win"
+          }
+        ]
+      }
+    }
+  },
+  "software_verification": {
+    "backend_tests": 330,
+    "interface_startup_save_tests": 12,
+    "final_source_tabs": 6,
+    "cfb_rule_parity_rows": 5878,
+    "cfb_compact_pairing_rows": 1137,
+    "native_visual_inspection": "Not completed: browser binaries unavailable"
+  }
+}

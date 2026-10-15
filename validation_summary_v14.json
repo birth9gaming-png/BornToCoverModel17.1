@@ -1,0 +1,1160 @@
+{
+  "NFL": {
+    "games": 2290,
+    "policy": {
+      "format": "football-calibration-v1",
+      "league": "NFL",
+      "core_signature": "5e043989c8e55c4e114411104386f330ce3c53841ef34614d284799bd5de6697",
+      "targets": {
+        "margin": {
+          "coefficients": {
+            "kind": "market_residual",
+            "features": [
+              "away_plays",
+              "away_rest_days",
+              "away_sample_games",
+              "baseline_margin",
+              "baseline_total",
+              "cpoe_gap",
+              "epa_gap",
+              "epa_sum",
+              "explosiveness_gap",
+              "explosiveness_sum",
+              "home_plays",
+              "home_rest_days",
+              "home_sample_games",
+              "neutral_site",
+              "pass_epa_gap",
+              "pass_epa_sum",
+              "pressure_sack_gap",
+              "result_rating_gap",
+              "rush_epa_gap",
+              "rush_epa_sum",
+              "sack_rate_gap",
+              "success_gap",
+              "success_sum",
+              "turnover_gap",
+              "ypp_gap",
+              "ypp_sum",
+              "market_reference",
+              "raw_minus_market"
+            ],
+            "medians": [
+              63.0,
+              7.0,
+              9.0,
+              -1.4824131992477128,
+              45.34085677244026,
+              0.18312824216643075,
+              -0.0022036416510298317,
+              0.012986798851965912,
+              0.03216509677360513,
+              17.118854070287387,
+              63.0,
+              7.0,
+              9.0,
+              0.0,
+              -0.003081043822581158,
+              0.11086490392840093,
+              0.022639526473831495,
+              -0.020118290106131198,
+              0.00046752914019165814,
+              -0.15061826945344237,
+              0.04846182025545942,
+              0.005532126956904193,
+              87.62140429624567,
+              0.0,
+              0.00960131352826199,
+              11.163564811100855,
+              -3.0,
+              0.42527692313209675
+            ],
+            "means": [
+              62.93539168545545,
+              7.509554140127388,
+              8.652229299363057,
+              -1.4289737177645905,
+              45.47612995013524,
+              -0.05972166619782095,
+              -0.0015429448096904556,
+              0.012732649541291557,
+              0.013588190815636576,
+              17.179638836496064,
+              62.94983915500631,
+              7.4636942675159235,
+              8.654140127388535,
+              0.017834394904458598,
+              -0.0017551049537810359,
+              0.11487190981530673,
+              0.037155738564630045,
+              -0.024920769026176213,
+              -0.0008235605454025048,
+              -0.15379364826488154,
+              0.012722340531210777,
+              -0.0003823114695729804,
+              87.69531879838922,
+              0.001631957038007994,
+              0.013439520469390611,
+              11.188561515175778,
+              -1.7977707006369428,
+              0.33386413926986
+            ],
+            "scales": [
+              3.885557280083566,
+              2.1140049665649303,
+              4.123114678014514,
+              4.6513213770500785,
+              5.824480361517677,
+              5.637755361869116,
+              0.09205295644353954,
+              0.10296513501612892,
+              2.1177787433604274,
+              2.1728607480268223,
+              3.9765846372140667,
+              2.126333313184216,
+              4.122116679167404,
+              0.13234926997475305,
+              0.14013389522996386,
+              0.13767086855995003,
+              2.575157619101323,
+              6.7281599839209285,
+              0.08823280383660129,
+              0.10450163347555909,
+              2.978729295644659,
+              3.086316965419618,
+              4.519495705336616,
+              1.043972975173823,
+              0.5126351330912399,
+              0.6221520970455201,
+              6.243954640491662,
+              3.604909703589938
+            ],
+            "coefficients": [
+              -0.010885622881711852,
+              -0.05709477732090764,
+              -0.05844487208170223,
+              -0.006199835812686617,
+              0.027830519501087402,
+              0.04475752647244714,
+              0.001957285866869579,
+              0.03941542889713033,
+              -0.11531344971479827,
+              0.03413015392415265,
+              -0.0001427590300074333,
+              0.10081124586565637,
+              -0.07145524346172019,
+              0.042441596549273056,
+              -0.013303858752613005,
+              0.041687874906105496,
+              0.058814414052182955,
+              -0.003949991938590205,
+              0.051429024438150193,
+              0.027897618248049556,
+              -0.05944901508844784,
+              0.042176955285681966,
+              0.019438564114463215,
+              0.005082260373725438,
+              -0.009689428187248907,
+              0.03738708283278527,
+              0.03130119818154537,
+              -0.05788588448710902
+            ],
+            "intercept": 0.2950584829183552,
+            "cap": 6.0,
+            "penalty": 10000.0,
+            "sigma": 13.175849862293703
+          },
+          "candidate_passed": true,
+          "status": "Passed 2024 score and probability checks",
+          "baseline_audit": {
+            "games": 240,
+            "mae": 10.322324307138016,
+            "rmse": 13.140907973488552,
+            "bias": -0.3091573403862594,
+            "probability_games": 240,
+            "brier": 0.5388424411293937,
+            "log_loss": 0.7720885788980527
+          },
+          "selected_audit": {
+            "games": 240,
+            "mae": 9.645948444971118,
+            "rmse": 12.476541183587903,
+            "bias": -0.539415734038626,
+            "probability_games": 240,
+            "brier": 0.5165174468777092,
+            "log_loss": 0.7471379835706858
+          },
+          "test": {
+            "games": 240,
+            "mae": 10.071720129720147,
+            "rmse": 12.56873943530566,
+            "bias": -0.7458907380595029,
+            "probability_games": 240,
+            "brier": 0.5034551323585735,
+            "log_loss": 0.7115834812376088
+          },
+          "baseline_test": {
+            "games": 240,
+            "mae": 10.564225834178622,
+            "rmse": 13.337072218685211,
+            "bias": -0.6548039472262138,
+            "probability_games": 240,
+            "brier": 0.5297371961129227,
+            "log_loss": 0.7405638815323081
+          },
+          "market_test": {
+            "games": 240,
+            "mae": 10.077083333333333,
+            "rmse": 12.56901779509176,
+            "bias": -0.58125,
+            "probability_games": 240,
+            "brier": 0.5041261733032406,
+            "log_loss": 0.7122607136916991
+          },
+          "market_context_enabled": false,
+          "previous_recipe_audit": {
+            "games": 240,
+            "mae": 9.563193161578397,
+            "rmse": 12.465965501511198,
+            "bias": -0.8631587728585348,
+            "probability_games": 240,
+            "brier": 0.5122926912986203,
+            "log_loss": 0.7428699204897689
+          },
+          "previous_recipe_test": {
+            "games": 240,
+            "mae": 10.071720129720147,
+            "rmse": 12.56873943530566,
+            "bias": -0.7458907380595029,
+            "probability_games": 240,
+            "brier": 0.5034551323585735,
+            "log_loss": 0.7115834812376088
+          },
+          "market_context_status": "Previous forecast retained; division assumptions isolated from candidate confidence",
+          "fixed_division_shrink": 0.12,
+          "fixed_division_total_drop": 0.0,
+          "uncertainty": {
+            "active": false,
+            "thresholds": [
+              3.0,
+              10.0
+            ],
+            "sigmas": [
+              12.842170329018021,
+              12.765441396595508,
+              13.079190123307315
+            ],
+            "training_counts": [
+              347,
+              999,
+              224
+            ],
+            "evaluation": {
+              "2023": {
+                "constant": {
+                  "games": 240,
+                  "brier": 0.5478578767852926,
+                  "log_loss": 0.8487507332768442
+                },
+                "conditional": {
+                  "games": 240,
+                  "brier": 0.5477895534389603,
+                  "log_loss": 0.8476775372018338
+                }
+              },
+              "2024": {
+                "constant": {
+                  "games": 240,
+                  "brier": 0.5122926912986203,
+                  "log_loss": 0.7428699204897689
+                },
+                "conditional": {
+                  "games": 240,
+                  "brier": 0.5123372333671078,
+                  "log_loss": 0.7429411847138042
+                }
+              },
+              "2025": {
+                "constant": {
+                  "games": 240,
+                  "brier": 0.5034551323585735,
+                  "log_loss": 0.7115834812376088
+                },
+                "conditional": {
+                  "games": 240,
+                  "brier": 0.5033961732228774,
+                  "log_loss": 0.7115972659493658
+                }
+              }
+            },
+            "status": "Constant validated sigma retained; conditional uncertainty did not qualify"
+          }
+        },
+        "total": {
+          "coefficients": {
+            "kind": "market_residual",
+            "features": [
+              "away_plays",
+              "away_rest_days",
+              "away_sample_games",
+              "baseline_margin",
+              "baseline_total",
+              "cpoe_gap",
+              "epa_gap",
+              "epa_sum",
+              "explosiveness_gap",
+              "explosiveness_sum",
+              "home_plays",
+              "home_rest_days",
+              "home_sample_games",
+              "neutral_site",
+              "pass_epa_gap",
+              "pass_epa_sum",
+              "pressure_sack_gap",
+              "result_rating_gap",
+              "rush_epa_gap",
+              "rush_epa_sum",
+              "sack_rate_gap",
+              "story_division",
+              "story_division_margin",
+              "story_letdown_gap",
+              "story_lookahead_gap",
+              "story_rank_gap",
+              "story_rank_known",
+              "story_recent_form_gap",
+              "story_recent_margin_gap",
+              "story_record_disagreement",
+              "story_record_gap",
+              "story_record_sample",
+              "story_rivalry",
+              "story_short_home_division_dog",
+              "story_streak_disagreement",
+              "story_unranked_favorite",
+              "success_gap",
+              "success_sum",
+              "turnover_gap",
+              "ypp_gap",
+              "ypp_sum",
+              "market_reference",
+              "raw_minus_market"
+            ],
+            "medians": [
+              63.0,
+              7.0,
+              9.0,
+              -1.4824131992477128,
+              45.34085677244026,
+              0.18312824216643075,
+              -0.0022036416510298317,
+              0.012986798851965912,
+              0.03216509677360513,
+              17.118854070287387,
+              63.0,
+              7.0,
+              9.0,
+              0.0,
+              -0.003081043822581158,
+              0.11086490392840093,
+              0.022639526473831495,
+              -0.020118290106131198,
+              0.00046752914019165814,
+              -0.15061826945344237,
+              0.04846182025545942,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.6666666666666674,
+              0.0,
+              0.0,
+              8.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.005532126956904193,
+              87.62140429624567,
+              0.0,
+              0.00960131352826199,
+              11.163564811100855,
+              45.5,
+              0.32338602370214176
+            ],
+            "means": [
+              62.93539168545545,
+              7.509554140127388,
+              8.652229299363057,
+              -1.4289737177645905,
+              45.47612995013524,
+              -0.05972166619782095,
+              -0.0015429448096904556,
+              0.012732649541291557,
+              0.013588190815636576,
+              17.179638836496064,
+              62.94983915500631,
+              7.4636942675159235,
+              8.654140127388535,
+              0.017834394904458598,
+              -0.0017551049537810359,
+              0.11487190981530673,
+              0.037155738564630045,
+              -0.024920769026176213,
+              -0.0008235605454025048,
+              -0.15379364826488154,
+              0.012722340531210777,
+              0.3700636942675159,
+              -0.5630573248407643,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.016560509554140096,
+              0.6097664543524395,
+              -0.014747974954981322,
+              0.003159684441531583,
+              8.573248407643312,
+              0.3700636942675159,
+              -0.05605095541401274,
+              -0.0012738853503184713,
+              0.0,
+              -0.0003823114695729804,
+              87.69531879838922,
+              0.001631957038007994,
+              0.013439520469390611,
+              11.188561515175778,
+              45.744585987261146,
+              0.3215212282596294
+            ],
+            "scales": [
+              3.885557280083566,
+              2.1140049665649303,
+              4.123114678014514,
+              4.6513213770500785,
+              5.824480361517677,
+              5.637755361869116,
+              0.09205295644353954,
+              0.10296513501612892,
+              2.1177787433604274,
+              2.1728607480268223,
+              3.9765846372140667,
+              2.126333313184216,
+              4.122116679167404,
+              0.13234926997475305,
+              0.14013389522996386,
+              0.13767086855995003,
+              2.575157619101323,
+              6.7281599839209285,
+              0.08823280383660129,
+              0.10450163347555909,
+              2.978729295644659,
+              0.4828214540102703,
+              3.9490591740022682,
+              1.0,
+              1.0,
+              1.0,
+              1.0,
+              0.41252719490568157,
+              11.758974384379412,
+              0.09210194527407083,
+              0.32100174854209307,
+              4.1486761324149635,
+              0.4828214540102703,
+              0.2300200987113736,
+              0.05045936896901528,
+              1.0,
+              3.086316965419618,
+              4.519495705336616,
+              1.043972975173823,
+              0.5126351330912399,
+              0.6221520970455201,
+              4.439227208016014,
+              3.075612199262114
+            ],
+            "coefficients": [
+              -0.1339270670691798,
+              -0.07690418416735503,
+              0.03396335704752316,
+              -0.018116395529913648,
+              -0.21426152798434187,
+              0.06256511045886423,
+              0.010858751633523109,
+              -0.3811937543215675,
+              -0.030900450929983437,
+              0.185734423378136,
+              -0.31528961260632055,
+              0.0885340113040767,
+              -0.01142860102682471,
+              -0.2330155283939737,
+              -0.09326046434405892,
+              -0.4520778626301498,
+              0.08808651392952462,
+              -0.07092600578056409,
+              0.128869998779509,
+              -0.021182931765627404,
+              0.11192171864339719,
+              -0.11714850134714083,
+              0.16674897441545597,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              -0.14536685923916748,
+              -0.13305598109935868,
+              -0.23604188031163417,
+              -0.04962773264085156,
+              0.013220513854894474,
+              -0.11714850134714076,
+              -0.1479163853705252,
+              -0.17382081473486313,
+              0.0,
+              0.004993400094024237,
+              -0.05620995560281074,
+              -0.2095318616304403,
+              0.14560900041301578,
+              -0.20759681848005915,
+              0.9335303532301827,
+              1.044824453741488
+            ],
+            "intercept": 0.2515923566879054,
+            "cap": 6.0,
+            "penalty": 1000.0,
+            "sigma": 13.240979266291584
+          },
+          "candidate_passed": true,
+          "status": "Passed 2024 score and probability checks",
+          "baseline_audit": {
+            "games": 240,
+            "mae": 10.016642176982334,
+            "rmse": 13.290525585662825,
+            "bias": 2.104891936876427,
+            "probability_games": 240,
+            "brier": 0.5256427054609267,
+            "log_loss": 0.7559616909240082
+          },
+          "selected_audit": {
+            "games": 240,
+            "mae": 9.750110209046207,
+            "rmse": 12.740232535622079,
+            "bias": 1.437204486245243,
+            "probability_games": 240,
+            "brier": 0.508287920662406,
+            "log_loss": 0.7372883098496683
+          },
+          "test": {
+            "games": 240,
+            "mae": 10.19856378901131,
+            "rmse": 12.930237547993848,
+            "bias": 0.9623690629150147,
+            "probability_games": 240,
+            "brier": 0.5035218115146204,
+            "log_loss": 0.6966766943725307
+          },
+          "baseline_test": {
+            "games": 240,
+            "mae": 10.65747516473939,
+            "rmse": 13.440658768535847,
+            "bias": 1.507702004893604,
+            "probability_games": 240,
+            "brier": 0.5331036770034435,
+            "log_loss": 0.7280195273412365
+          },
+          "market_test": {
+            "games": 240,
+            "mae": 10.133333333333333,
+            "rmse": 12.965017033026477,
+            "bias": 1.25,
+            "probability_games": 240,
+            "brier": 0.5,
+            "log_loss": 0.6931471805599453
+          },
+          "market_context_enabled": true,
+          "previous_recipe_audit": {
+            "games": 240,
+            "mae": 9.75701201658083,
+            "rmse": 12.816167861526985,
+            "bias": 1.467696370158617,
+            "probability_games": 240,
+            "brier": 0.5104858352687888,
+            "log_loss": 0.7395335688008533
+          },
+          "previous_recipe_test": {
+            "games": 240,
+            "mae": 10.134773245836149,
+            "rmse": 12.867002907535273,
+            "bias": 0.9589722229965304,
+            "probability_games": 240,
+            "brier": 0.5013162823260443,
+            "log_loss": 0.6944875301473902
+          },
+          "market_context_status": "Learned division/context fit passed later-year checks",
+          "uncertainty": {
+            "active": false,
+            "thresholds": [
+              43.0,
+              50.0
+            ],
+            "sigmas": [
+              12.842107413326115,
+              13.336334545259662,
+              12.950533032359033
+            ],
+            "training_counts": [
+              403,
+              890,
+              277
+            ],
+            "evaluation": {
+              "2023": {
+                "constant": {
+                  "games": 240,
+                  "brier": 0.5145373145142822,
+                  "log_loss": 0.736823900176402
+                },
+                "conditional": {
+                  "games": 240,
+                  "brier": 0.5147868706392335,
+                  "log_loss": 0.737158975495857
+                }
+              },
+              "2024": {
+                "constant": {
+                  "games": 240,
+                  "brier": 0.508287920662406,
+                  "log_loss": 0.7372883098496683
+                },
+                "conditional": {
+                  "games": 240,
+                  "brier": 0.50821593623361,
+                  "log_loss": 0.7373885762826486
+                }
+              },
+              "2025": {
+                "constant": {
+                  "games": 240,
+                  "brier": 0.5035218115146204,
+                  "log_loss": 0.6966766943725307
+                },
+                "conditional": {
+                  "games": 240,
+                  "brier": 0.5036288674603734,
+                  "log_loss": 0.6967859729589746
+                }
+              }
+            },
+            "status": "Constant validated sigma retained; conditional uncertainty did not qualify"
+          }
+        }
+      },
+      "counts": {
+        "train": 1570,
+        "tune": 240,
+        "audit": 240,
+        "test": 240
+      },
+      "basis": "Existing efficiency core plus validation-selected residual fit and available historical NFL layers",
+      "limitations": [
+        "NFL historical references are closes; CFBD line timestamps are unverified. Live quoted-price performance requires the frozen forecast ledger.",
+        "Historical free data does not contain dated injury, wind, official DVOA, pressure or adjusted-line-yards snapshots. Their live effects remain scenario inputs."
+      ],
+      "recipe_id": "52debb511cac167e4bf0faedb0b07940648b3fce5a7b024a7d3917f65a1797d7"
+    },
+    "rank_coverage": 0
+  },
+  "CFB": {
+    "games": 5878,
+    "policy": {
+      "format": "football-calibration-v1",
+      "league": "CFB",
+      "core_signature": "7c8d71ad3025256a28960a76fc3df70e08b30c3bd1eebaf3d935521c7a6e00b7",
+      "targets": {
+        "margin": {
+          "coefficients": {
+            "kind": "market_residual",
+            "features": [
+              "away_plays",
+              "away_sample_games",
+              "baseline_neutral_margin",
+              "baseline_total",
+              "colley_gap",
+              "explosiveness_gap",
+              "explosiveness_sum",
+              "home_plays",
+              "home_sample_games",
+              "massey_gap",
+              "story_division",
+              "story_division_margin",
+              "story_letdown_gap",
+              "story_lookahead_gap",
+              "story_rank_gap",
+              "story_rank_known",
+              "story_recent_form_gap",
+              "story_recent_margin_gap",
+              "story_record_disagreement",
+              "story_record_gap",
+              "story_record_sample",
+              "story_rivalry",
+              "story_short_home_division_dog",
+              "story_streak_disagreement",
+              "story_unranked_favorite",
+              "success_gap",
+              "success_sum",
+              "turnover_gap",
+              "ypp_gap",
+              "ypp_sum",
+              "market_reference",
+              "raw_minus_market"
+            ],
+            "medians": [
+              70.0,
+              6.0,
+              -0.38514563929175294,
+              54.62160006516802,
+              -0.0018430960088423598,
+              6.77817299682415e-05,
+              2.4339192642173857,
+              69.75,
+              6.0,
+              -0.7858546245837228,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              1.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              6.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              -0.001599347516773264,
+              85.64134019782229,
+              0.0,
+              -0.018722820473267454,
+              11.434143595945798,
+              -3.375,
+              0.367696054987805
+            ],
+            "means": [
+              70.11616948828056,
+              6.454891028890016,
+              -0.5799765988408006,
+              54.7152647964242,
+              -0.0030003778936525793,
+              -0.0003310942586749677,
+              2.435951884772194,
+              70.0587695340925,
+              6.46477445514445,
+              -1.1961873814393658,
+              0.0,
+              0.0,
+              -0.005575266092245312,
+              0.03218449062341612,
+              -0.010684237202230103,
+              1.0,
+              0.011319479641831377,
+              0.3392464943402602,
+              -0.012686409018137355,
+              -0.002022891930393199,
+              6.294221996958946,
+              0.03421186011150532,
+              0.0,
+              -0.0017739483020780538,
+              -0.013684744044602128,
+              -0.07528605715829911,
+              85.73701979542895,
+              -0.006058951326310661,
+              -0.0050510165509171576,
+              11.455192494179535,
+              -3.651545869234668,
+              0.3896415257370352
+            ],
+            "scales": [
+              6.018103496581258,
+              2.859546685865131,
+              11.833144701721677,
+              7.498285235053886,
+              0.2390247172618485,
+              0.12526255854945748,
+              0.14347974474021824,
+              5.961373034566481,
+              2.864909235709875,
+              18.3415637189893,
+              1.0,
+              1.0,
+              0.32619904128105426,
+              0.5281993649235294,
+              0.33106593139042584,
+              1.0,
+              0.41740345633009646,
+              19.12428175883914,
+              0.10424103299130884,
+              0.35139238819105384,
+              2.888509852703712,
+              0.18177295931797996,
+              1.0,
+              0.047724666384604576,
+              0.14870706825639946,
+              5.768581753116805,
+              4.997749223344563,
+              1.2004481527758601,
+              0.936763126964603,
+              0.8469541938387821,
+              14.108870236621563,
+              6.61855682608565
+            ],
+            "coefficients": [
+              -0.045909227206661476,
+              -0.0037045120009349453,
+              -0.04858783731310021,
+              -0.0600269271963664,
+              0.0067552352006630175,
+              -0.1697447696772206,
+              -0.05421497327780647,
+              0.12988331371278114,
+              -0.008578332184149171,
+              -0.048550453522129854,
+              0.0,
+              0.0,
+              0.012804634202582987,
+              -0.08138726275372442,
+              0.09926112103828104,
+              0.0,
+              0.02279291773939371,
+              0.03303525984609438,
+              -0.03153269777240319,
+              -0.03989044301743981,
+              0.0009819300498950106,
+              0.10953100403419666,
+              0.0,
+              0.005730362889072736,
+              0.053760524975373696,
+              0.0016402281379129142,
+              -0.05695175333933741,
+              -0.020103169818161213,
+              -0.06505089395719595,
+              -0.12015833731644966,
+              0.04100373758773624,
+              0.3577036508745172
+            ],
+            "intercept": 0.38469336036492474,
+            "cap": 10.0,
+            "penalty": 10000.0,
+            "sigma": 15.221435380348035
+          },
+          "candidate_passed": true,
+          "status": "Passed 2024 score and probability checks",
+          "baseline_audit": {
+            "games": 619,
+            "mae": 13.086387811807775,
+            "rmse": 16.513875503623616,
+            "bias": -0.7391871013079876,
+            "probability_games": 611,
+            "brier": 0.562338342892182,
+            "log_loss": 0.8293100445166024
+          },
+          "selected_audit": {
+            "games": 619,
+            "mae": 12.035397393916687,
+            "rmse": 15.288185460875052,
+            "bias": -1.320988386573023,
+            "probability_games": 611,
+            "brier": 0.523040279811339,
+            "log_loss": 0.7724477598524354
+          },
+          "test": {
+            "games": 662,
+            "mae": 11.812160875599007,
+            "rmse": 14.99641821928639,
+            "bias": -1.0154436103171434,
+            "probability_games": 661,
+            "brier": 0.5196051189539258,
+            "log_loss": 0.7634712799010259
+          },
+          "baseline_test": {
+            "games": 662,
+            "mae": 12.667481245170878,
+            "rmse": 15.895542639922526,
+            "bias": -0.8298100241710743,
+            "probability_games": 661,
+            "brier": 0.5484035482461935,
+            "log_loss": 0.8022342804071046
+          },
+          "market_test": {
+            "games": 662,
+            "mae": 11.81155589123867,
+            "rmse": 14.990999943470614,
+            "bias": -0.6831570996978852,
+            "probability_games": 661,
+            "brier": 0.5198518012590754,
+            "log_loss": 0.7637179710406725
+          },
+          "market_context_enabled": true,
+          "market_context_status": "Added market context passed later-year score/probability checks",
+          "context_candidate_selected": true,
+          "context_candidate_audit": {
+            "games": 619,
+            "mae": 12.025716839762753,
+            "rmse": 15.281895352429432,
+            "bias": -1.3270346192801752,
+            "probability_games": 611,
+            "brier": 0.5224819593366434,
+            "log_loss": 0.7718782707250049
+          },
+          "previous_recipe_audit": {
+            "games": 619,
+            "mae": 12.035397393916687,
+            "rmse": 15.288185460875052,
+            "bias": -1.320988386573023,
+            "probability_games": 611,
+            "brier": 0.523040279811339,
+            "log_loss": 0.7724477598524354
+          },
+          "context_tune_rmse": 15.20988783451261,
+          "previous_recipe_test": {
+            "games": 662,
+            "mae": 11.811338377802892,
+            "rmse": 14.998770550842936,
+            "bias": -1.012353399763626,
+            "probability_games": 661,
+            "brier": 0.5196770002989359,
+            "log_loss": 0.763545365973128
+          },
+          "uncertainty": {
+            "active": false,
+            "thresholds": [
+              7.0,
+              21.0
+            ],
+            "sigmas": [
+              15.630970569513192,
+              15.591810164112973,
+              15.937630502797772
+            ],
+            "training_counts": [
+              1489,
+              1839,
+              618
+            ],
+            "evaluation": {
+              "2023": {
+                "constant": {
+                  "games": 617,
+                  "brier": 0.5191693710013366,
+                  "log_loss": 0.7657531437232855
+                },
+                "conditional": {
+                  "games": 617,
+                  "brier": 0.5192014201566119,
+                  "log_loss": 0.7660186874997624
+                }
+              },
+              "2024": {
+                "constant": {
+                  "games": 611,
+                  "brier": 0.5224819593366434,
+                  "log_loss": 0.7718782707250049
+                },
+                "conditional": {
+                  "games": 611,
+                  "brier": 0.5224696045270745,
+                  "log_loss": 0.7721968573938338
+                }
+              },
+              "2025": {
+                "constant": {
+                  "games": 661,
+                  "brier": 0.5196051189539258,
+                  "log_loss": 0.7634712799010259
+                },
+                "conditional": {
+                  "games": 661,
+                  "brier": 0.519634719786405,
+                  "log_loss": 0.7638710698501311
+                }
+              }
+            },
+            "status": "Constant validated sigma retained; conditional uncertainty did not qualify"
+          }
+        },
+        "total": {
+          "coefficients": {
+            "model_weight": 0.1,
+            "bias": 0.3611859761436099,
+            "sigma": 15.660717457049987
+          },
+          "candidate_passed": true,
+          "status": "Passed 2024 score and probability checks",
+          "baseline_audit": {
+            "games": 619,
+            "mae": 13.258502589862953,
+            "rmse": 16.8459612193855,
+            "bias": 1.2337312272025698,
+            "probability_games": 616,
+            "brier": 0.5319029020970708,
+            "log_loss": 0.7770295524938015
+          },
+          "selected_audit": {
+            "games": 619,
+            "mae": 12.83942299190768,
+            "rmse": 16.37130872843553,
+            "bias": 1.5058462742018477,
+            "probability_games": 616,
+            "brier": 0.5164354547403176,
+            "log_loss": 0.7585795873349641
+          },
+          "test": {
+            "games": 662,
+            "mae": 12.217791540499165,
+            "rmse": 15.191022234820126,
+            "bias": 0.14131986151680473,
+            "probability_games": 661,
+            "brier": 0.5067764279915562,
+            "log_loss": 0.7159537600650552
+          },
+          "baseline_test": {
+            "games": 662,
+            "mae": 12.714732356873576,
+            "rmse": 15.720863120918644,
+            "bias": 0.045828769353405345,
+            "probability_games": 661,
+            "brier": 0.5310596720185103,
+            "log_loss": 0.7428119848903394
+          },
+          "market_test": {
+            "games": 662,
+            "mae": 12.195996978851964,
+            "rmse": 15.214295655602086,
+            "bias": 0.5532477341389728,
+            "probability_games": 661,
+            "brier": 0.5057362620830586,
+            "log_loss": 0.7149100242553822
+          },
+          "market_context_enabled": false,
+          "market_context_status": "Screening active; existing calibrated forecast retained after later-year checks",
+          "context_candidate_selected": false,
+          "context_candidate_audit": {
+            "games": 619,
+            "mae": 12.83942299190768,
+            "rmse": 16.37130872843553,
+            "bias": 1.5058462742018477,
+            "probability_games": 616,
+            "brier": 0.5164354547403176,
+            "log_loss": 0.7585795873349641
+          },
+          "previous_recipe_audit": {
+            "games": 619,
+            "mae": 12.83942299190768,
+            "rmse": 16.37130872843553,
+            "bias": 1.5058462742018477,
+            "probability_games": 616,
+            "brier": 0.5164354547403176,
+            "log_loss": 0.7585795873349641
+          },
+          "context_tune_rmse": 15.688579183788292,
+          "previous_recipe_test": {
+            "games": 662,
+            "mae": 12.217791540499165,
+            "rmse": 15.191022234820126,
+            "bias": 0.14131986151680473,
+            "probability_games": 661,
+            "brier": 0.5067764279915562,
+            "log_loss": 0.7159537600650552
+          },
+          "uncertainty": {
+            "active": false,
+            "thresholds": [
+              50.0,
+              60.0
+            ],
+            "sigmas": [
+              15.226139332102244,
+              16.26183948055756,
+              17.429539511050194
+            ],
+            "training_counts": [
+              1008,
+              1731,
+              1203
+            ],
+            "evaluation": {
+              "2023": {
+                "constant": {
+                  "games": 577,
+                  "brier": 0.5143678197894488,
+                  "log_loss": 0.7499369588377779
+                },
+                "conditional": {
+                  "games": 577,
+                  "brier": 0.514440906450405,
+                  "log_loss": 0.7499001158235197
+                }
+              },
+              "2024": {
+                "constant": {
+                  "games": 616,
+                  "brier": 0.5164354547403176,
+                  "log_loss": 0.7585795873349641
+                },
+                "conditional": {
+                  "games": 616,
+                  "brier": 0.516365725127646,
+                  "log_loss": 0.7589050003338168
+                }
+              },
+              "2025": {
+                "constant": {
+                  "games": 661,
+                  "brier": 0.5067764279915562,
+                  "log_loss": 0.7159537600650552
+                },
+                "conditional": {
+                  "games": 661,
+                  "brier": 0.5067446913925203,
+                  "log_loss": 0.715970639441797
+                }
+              }
+            },
+            "status": "Constant validated sigma retained; conditional uncertainty did not qualify"
+          }
+        }
+      },
+      "counts": {
+        "train": 3946,
+        "tune": 650,
+        "audit": 619,
+        "test": 663
+      },
+      "basis": "Existing efficiency model plus regularized market/rank/record/context features; weights selected on 2023 and checked on 2024",
+      "limitations": [
+        "NFL historical references are closes; CFBD line timestamps are unverified. Live quoted-price performance requires the frozen forecast ledger.",
+        "Historical free data does not contain dated injury, wind, official DVOA, pressure or adjusted-line-yards snapshots. Their live effects remain scenario inputs."
+      ],
+      "recipe_id": "49e8ec382ca5682191290abc5b34dac602b7e40985c10ae2f8ae238ffb3c6f61",
+      "market_context_features": [
+        "story_record_gap",
+        "story_recent_form_gap",
+        "story_recent_margin_gap",
+        "story_record_disagreement",
+        "story_streak_disagreement",
+        "story_unranked_favorite",
+        "story_rank_gap",
+        "story_rank_known",
+        "story_lookahead_gap",
+        "story_letdown_gap",
+        "story_division",
+        "story_short_home_division_dog",
+        "story_rivalry",
+        "story_record_sample",
+        "story_division_margin"
+      ]
+    },
+    "rank_coverage": 5878
+  }
+}

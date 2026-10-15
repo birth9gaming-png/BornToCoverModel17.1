@@ -1,0 +1,558 @@
+{
+  "format": "main-validation-v16",
+  "leagues": {
+    "CFB": {
+      "margin": {
+        "algorithm": "median_boost + histogram_boost",
+        "changed": true,
+        "development": {
+          "training": "2016\u20132022",
+          "tuning": "2023",
+          "later_checks": [
+            "2024",
+            "2025"
+          ],
+          "objective": "Win/push/loss Brier score and log loss; point RMSE is reported, not an automatic veto",
+          "limitation": "Algorithm acceptance considered 2024/2025 results. These are development checks, NOT untouched final tests. Production refit through 2025 requires prospective evaluation.",
+          "previous": {
+            "tune": {
+              "games": 650,
+              "probability_games": 617,
+              "rmse": 15.20988783451261,
+              "mae": 12.127038679792452,
+              "bias": -0.07100899468027042,
+              "brier": 0.5191693710013366,
+              "log_loss": 0.7657531437232855,
+              "hits": 311,
+              "decisions": 604,
+              "hit_rate": 0.5149006622516556,
+              "at_least_60_count": 0,
+              "at_least_60_hits": 0,
+              "maximum_probability": 0.5553540932537024
+            },
+            "audit": {
+              "games": 619,
+              "probability_games": 611,
+              "rmse": 15.281895352429432,
+              "mae": 12.025716839762753,
+              "bias": -1.3270346192801752,
+              "brier": 0.5224819593366434,
+              "log_loss": 0.7718782707250049,
+              "hits": 299,
+              "decisions": 597,
+              "hit_rate": 0.5008375209380235,
+              "at_least_60_count": 0,
+              "at_least_60_hits": 0,
+              "maximum_probability": 0.5588952638023097
+            },
+            "test": {
+              "games": 662,
+              "probability_games": 661,
+              "rmse": 14.99641821928639,
+              "mae": 11.812160875599007,
+              "bias": -1.0154436103171434,
+              "brier": 0.5196051189539258,
+              "log_loss": 0.7634712799010257,
+              "hits": 330,
+              "decisions": 647,
+              "hit_rate": 0.5100463678516228,
+              "at_least_60_count": 0,
+              "at_least_60_hits": 0,
+              "maximum_probability": 0.5610170809577462
+            }
+          },
+          "selected": {
+            "tune": {
+              "games": 650,
+              "probability_games": 617,
+              "rmse": 15.178175708526933,
+              "mean_actual_minus_forecast": 0.09279029982835665,
+              "brier": 0.5163805915393233,
+              "log_loss": 0.7629081970888408,
+              "probability_buckets": {
+                "Below 60%": {
+                  "games": 613,
+                  "wins": 317,
+                  "pushes": 13,
+                  "mean_estimate": 0.51858040812434,
+                  "observed_win_rate": 0.5171288743882545
+                },
+                "60\u201370%": {
+                  "games": 4,
+                  "wins": 3,
+                  "pushes": 0,
+                  "mean_estimate": 0.6163593280066165,
+                  "observed_win_rate": 0.75
+                }
+              }
+            },
+            "audit": {
+              "games": 619,
+              "probability_games": 611,
+              "rmse": 15.29531312407364,
+              "mean_actual_minus_forecast": -1.0085400262075142,
+              "brier": 0.5223314412100172,
+              "log_loss": 0.7717293557568705,
+              "probability_buckets": {
+                "Below 60%": {
+                  "games": 611,
+                  "wins": 310,
+                  "pushes": 14,
+                  "mean_estimate": 0.5186866048516712,
+                  "observed_win_rate": 0.5073649754500819
+                }
+              }
+            },
+            "test": {
+              "games": 662,
+              "probability_games": 661,
+              "rmse": 15.0183232399977,
+              "mean_actual_minus_forecast": -0.8286878608054786,
+              "brier": 0.51867056782133,
+              "log_loss": 0.7624805411254097,
+              "probability_buckets": {
+                "Below 60%": {
+                  "games": 656,
+                  "wins": 339,
+                  "pushes": 14,
+                  "mean_estimate": 0.5202393667104626,
+                  "observed_win_rate": 0.5167682926829268
+                },
+                "60\u201370%": {
+                  "games": 5,
+                  "wins": 2,
+                  "pushes": 0,
+                  "mean_estimate": 0.6061330434822096,
+                  "observed_win_rate": 0.4
+                }
+              }
+            }
+          }
+        }
+      },
+      "total": {
+        "algorithm": "extra_trees",
+        "changed": true,
+        "development": {
+          "training": "2016\u20132022",
+          "tuning": "2023",
+          "later_checks": [
+            "2024",
+            "2025"
+          ],
+          "objective": "Win/push/loss Brier score and log loss; point RMSE is reported, not an automatic veto",
+          "limitation": "Algorithm acceptance considered 2024/2025 results. These are development checks, NOT untouched final tests. Production refit through 2025 requires prospective evaluation.",
+          "previous": {
+            "tune": {
+              "games": 650,
+              "probability_games": 577,
+              "rmse": 15.688579183788292,
+              "mae": 12.60231378149955,
+              "bias": 1.1183763436743965,
+              "brier": 0.5143678197894488,
+              "log_loss": 0.7499369588377779,
+              "hits": 297,
+              "decisions": 568,
+              "hit_rate": 0.522887323943662,
+              "at_least_60_count": 0,
+              "at_least_60_hits": 0,
+              "maximum_probability": 0.5507444833324032
+            },
+            "audit": {
+              "games": 619,
+              "probability_games": 616,
+              "rmse": 16.37130872843553,
+              "mae": 12.83942299190768,
+              "bias": 1.5058462742018477,
+              "brier": 0.5164354547403176,
+              "log_loss": 0.7585795873349641,
+              "hits": 318,
+              "decisions": 604,
+              "hit_rate": 0.5264900662251656,
+              "at_least_60_count": 0,
+              "at_least_60_hits": 0,
+              "maximum_probability": 0.5453281693882964
+            },
+            "test": {
+              "games": 662,
+              "probability_games": 661,
+              "rmse": 15.191022234820126,
+              "mae": 12.217791540499165,
+              "bias": 0.14131986151680473,
+              "brier": 0.5067764279915562,
+              "log_loss": 0.7159537600650552,
+              "hits": 320,
+              "decisions": 657,
+              "hit_rate": 0.487062404870624,
+              "at_least_60_count": 0,
+              "at_least_60_hits": 0,
+              "maximum_probability": 0.5537593887839038
+            }
+          },
+          "selected": {
+            "tune": {
+              "games": 650,
+              "probability_games": 577,
+              "rmse": 15.697169806364354,
+              "mae": 12.583646841109625,
+              "bias": 1.2624090589232413,
+              "brier": 0.5142210989280084,
+              "log_loss": 0.7497820294285649,
+              "hits": 287,
+              "decisions": 568,
+              "hit_rate": 0.5052816901408451,
+              "at_least_60_count": 0,
+              "at_least_60_hits": 0,
+              "maximum_probability": 0.5492859935384649
+            },
+            "audit": {
+              "games": 619,
+              "probability_games": 616,
+              "rmse": 16.374245622436824,
+              "mae": 12.83134269286674,
+              "bias": 1.5382547519497447,
+              "brier": 0.5157734202903737,
+              "log_loss": 0.7579393480817878,
+              "hits": 329,
+              "decisions": 604,
+              "hit_rate": 0.5447019867549668,
+              "at_least_60_count": 0,
+              "at_least_60_hits": 0,
+              "maximum_probability": 0.5503936424587659
+            },
+            "test": {
+              "games": 662,
+              "probability_games": 661,
+              "rmse": 15.197273164912122,
+              "mae": 12.181111829595794,
+              "bias": 0.13315913724021777,
+              "brier": 0.5051620775443675,
+              "log_loss": 0.7143323179960853,
+              "hits": 335,
+              "decisions": 657,
+              "hit_rate": 0.5098934550989346,
+              "at_least_60_count": 0,
+              "at_least_60_hits": 0,
+              "maximum_probability": 0.5543394197794177
+            }
+          }
+        }
+      }
+    },
+    "NFL": {
+      "margin": {
+        "algorithm": "random_forest",
+        "changed": true,
+        "development": {
+          "training": "2016\u20132022",
+          "tuning": "2023",
+          "later_checks": [
+            "2024",
+            "2025"
+          ],
+          "objective": "Win/push/loss Brier score and log loss; point RMSE is reported, not an automatic veto",
+          "limitation": "Algorithm acceptance considered 2024/2025 results. These are development checks, NOT untouched final tests. Production refit through 2025 requires prospective evaluation.",
+          "previous": {
+            "tune": {
+              "games": 240,
+              "probability_games": 240,
+              "rmse": 13.236807467310252,
+              "mae": 10.109216251302023,
+              "bias": -1.527546479786847,
+              "brier": 0.5478578767852925,
+              "log_loss": 0.8487507332768442,
+              "hits": 112,
+              "decisions": 228,
+              "hit_rate": 0.49122807017543857,
+              "at_least_60_count": 0,
+              "at_least_60_hits": 0,
+              "maximum_probability": 0.5723817111046109
+            },
+            "audit": {
+              "games": 240,
+              "probability_games": 240,
+              "rmse": 12.465965501511198,
+              "mae": 9.563193161578397,
+              "bias": -0.8631587728585348,
+              "brier": 0.5122926912986203,
+              "log_loss": 0.7428699204897689,
+              "hits": 123,
+              "decisions": 237,
+              "hit_rate": 0.5189873417721519,
+              "at_least_60_count": 0,
+              "at_least_60_hits": 0,
+              "maximum_probability": 0.5589549728852162
+            },
+            "test": {
+              "games": 240,
+              "probability_games": 240,
+              "rmse": 12.56873943530566,
+              "mae": 10.071720129720147,
+              "bias": -0.7458907380595029,
+              "brier": 0.5034551323585735,
+              "log_loss": 0.7115834812376088,
+              "hits": 128,
+              "decisions": 239,
+              "hit_rate": 0.5355648535564853,
+              "at_least_60_count": 0,
+              "at_least_60_hits": 0,
+              "maximum_probability": 0.5624321038183977
+            }
+          },
+          "selected": {
+            "tune": {
+              "games": 240,
+              "probability_games": 240,
+              "rmse": 13.231933160153892,
+              "mae": 10.115017251526186,
+              "bias": -1.404565277136868,
+              "brier": 0.5474781512034674,
+              "log_loss": 0.8484396519878633,
+              "hits": 109,
+              "decisions": 228,
+              "hit_rate": 0.4780701754385965,
+              "at_least_60_count": 0,
+              "at_least_60_hits": 0,
+              "maximum_probability": 0.5675130134297393
+            },
+            "audit": {
+              "games": 240,
+              "probability_games": 240,
+              "rmse": 12.472084124894755,
+              "mae": 9.56212768048368,
+              "bias": -0.7752020417267966,
+              "brier": 0.511867729065545,
+              "log_loss": 0.7424433327654855,
+              "hits": 125,
+              "decisions": 237,
+              "hit_rate": 0.5274261603375527,
+              "at_least_60_count": 0,
+              "at_least_60_hits": 0,
+              "maximum_probability": 0.5704485026556357
+            },
+            "test": {
+              "games": 240,
+              "probability_games": 240,
+              "rmse": 12.543485612198587,
+              "mae": 10.056070184494478,
+              "bias": -0.637193901782917,
+              "brier": 0.502326966678179,
+              "log_loss": 0.7104636138466744,
+              "hits": 130,
+              "decisions": 239,
+              "hit_rate": 0.5439330543933054,
+              "at_least_60_count": 0,
+              "at_least_60_hits": 0,
+              "maximum_probability": 0.5563026553097798
+            }
+          }
+        }
+      },
+      "total": {
+        "algorithm": "existing_market_residual",
+        "changed": false,
+        "development": {
+          "training": "2016\u20132022",
+          "tuning": "2023",
+          "later_checks": [
+            "2024",
+            "2025"
+          ],
+          "objective": "Win/push/loss Brier score and log loss; point RMSE is reported, not an automatic veto",
+          "limitation": "Algorithm acceptance considered 2024/2025 results. These are development checks, NOT untouched final tests. Production refit through 2025 requires prospective evaluation.",
+          "previous": {
+            "tune": {
+              "games": 240,
+              "probability_games": 240,
+              "rmse": 13.21732151843207,
+              "mae": 10.39118939615893,
+              "bias": -0.3233742531809422,
+              "brier": 0.5145373145142822,
+              "log_loss": 0.736823900176402,
+              "hits": 116,
+              "decisions": 238,
+              "hit_rate": 0.48739495798319327,
+              "at_least_60_count": 3,
+              "at_least_60_hits": 1,
+              "maximum_probability": 0.6219220600470686
+            },
+            "audit": {
+              "games": 240,
+              "probability_games": 240,
+              "rmse": 12.740232535622079,
+              "mae": 9.750110209046207,
+              "bias": 1.437204486245243,
+              "brier": 0.508287920662406,
+              "log_loss": 0.7372883098496683,
+              "hits": 123,
+              "decisions": 237,
+              "hit_rate": 0.5189873417721519,
+              "at_least_60_count": 1,
+              "at_least_60_hits": 0,
+              "maximum_probability": 0.6053785511111469
+            },
+            "test": {
+              "games": 240,
+              "probability_games": 240,
+              "rmse": 12.930237547993848,
+              "mae": 10.19856378901131,
+              "bias": 0.9623690629150147,
+              "brier": 0.5035218115146204,
+              "log_loss": 0.6966766943725307,
+              "hits": 114,
+              "decisions": 240,
+              "hit_rate": 0.475,
+              "at_least_60_count": 2,
+              "at_least_60_hits": 2,
+              "maximum_probability": 0.6159978276584488
+            }
+          },
+          "selected": {
+            "tune": {
+              "games": 240,
+              "probability_games": 240,
+              "rmse": 13.21732151843207,
+              "mae": 10.39118939615893,
+              "bias": -0.3233742531809422,
+              "brier": 0.5145373145142822,
+              "log_loss": 0.736823900176402,
+              "hits": 116,
+              "decisions": 238,
+              "hit_rate": 0.48739495798319327,
+              "at_least_60_count": 3,
+              "at_least_60_hits": 1,
+              "maximum_probability": 0.6219220600470686
+            },
+            "audit": {
+              "games": 240,
+              "probability_games": 240,
+              "rmse": 12.740232535622079,
+              "mae": 9.750110209046207,
+              "bias": 1.437204486245243,
+              "brier": 0.508287920662406,
+              "log_loss": 0.7372883098496683,
+              "hits": 123,
+              "decisions": 237,
+              "hit_rate": 0.5189873417721519,
+              "at_least_60_count": 1,
+              "at_least_60_hits": 0,
+              "maximum_probability": 0.6053785511111469
+            },
+            "test": {
+              "games": 240,
+              "probability_games": 240,
+              "rmse": 12.930237547993848,
+              "mae": 10.19856378901131,
+              "bias": 0.9623690629150147,
+              "brier": 0.5035218115146204,
+              "log_loss": 0.6966766943725307,
+              "hits": 114,
+              "decisions": 240,
+              "hit_rate": 0.475,
+              "at_least_60_count": 2,
+              "at_least_60_hits": 2,
+              "maximum_probability": 0.6159978276584488
+            }
+          }
+        }
+      }
+    }
+  },
+  "current_NFL_2026": {
+    "cutoff": "2026-10-13T00:03:57+00:00",
+    "completed_games": 78,
+    "eligible_games": 46,
+    "withheld": {
+      "Incomplete prior-week team history or first two weeks": 32
+    },
+    "comparisons": {
+      "margin": {
+        "old": {
+          "games": 46,
+          "probability_games": 46,
+          "rmse": 11.595506915509745,
+          "mean_actual_minus_forecast": 0.5063072435430164,
+          "brier": 0.5976025383690987,
+          "log_loss": 1.0022902804852285,
+          "probability_buckets": {
+            "Below 60%": {
+              "games": 46,
+              "wins": 22,
+              "pushes": 5,
+              "mean_estimate": 0.5078815113534023,
+              "observed_win_rate": 0.4782608695652174
+            }
+          }
+        },
+        "new": {
+          "games": 46,
+          "probability_games": 46,
+          "rmse": 11.611873140136263,
+          "mean_actual_minus_forecast": 0.6761509900487187,
+          "brier": 0.6001056314359964,
+          "log_loss": 1.0048939807550317,
+          "probability_buckets": {
+            "Below 60%": {
+              "games": 46,
+              "wins": 23,
+              "pushes": 5,
+              "mean_estimate": 0.5101639713249265,
+              "observed_win_rate": 0.5
+            }
+          }
+        }
+      },
+      "total": {
+        "old": {
+          "games": 46,
+          "probability_games": 46,
+          "rmse": 11.628675704168275,
+          "mean_actual_minus_forecast": 2.0141118280236996,
+          "brier": 0.5120982983420229,
+          "log_loss": 0.7054383595145891,
+          "probability_buckets": {
+            "Below 60%": {
+              "games": 44,
+              "wins": 19,
+              "pushes": 0,
+              "mean_estimate": 0.529568888700426,
+              "observed_win_rate": 0.4318181818181818
+            },
+            "60\u201370%": {
+              "games": 2,
+              "wins": 0,
+              "pushes": 0,
+              "mean_estimate": 0.6215542438055536,
+              "observed_win_rate": 0.0
+            }
+          }
+        },
+        "new": {
+          "games": 46,
+          "probability_games": 46,
+          "rmse": 11.628675704168275,
+          "mean_actual_minus_forecast": 2.0141118280236996,
+          "brier": 0.5120982983420229,
+          "log_loss": 0.7054383595145891,
+          "probability_buckets": {
+            "Below 60%": {
+              "games": 44,
+              "wins": 19,
+              "pushes": 0,
+              "mean_estimate": 0.529568888700426,
+              "observed_win_rate": 0.4318181818181818
+            },
+            "60\u201370%": {
+              "games": 2,
+              "wins": 0,
+              "pushes": 0,
+              "mean_estimate": 0.6215542438055536,
+              "observed_win_rate": 0.0
+            }
+          }
+        }
+      }
+    },
+    "basis": "Retrospective 2026 pre-week reconstruction with closing references, not actual pregame app selections; independent of 2016\u20132025 algorithm selection"
+  }
+}
